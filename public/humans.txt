@@ -3,13 +3,11 @@
 
 # TEAM
 
-  <name> -- <role> -- <twitter>
+  Gabriel Cardona -- Creator -- @cgcardona
 
 # THANKS
-
-  <name>
 
 # TECHNOLOGY COLOPHON
 
   CSS3, HTML5, JavaScript
-  React Starter Kit -- https://reactstarter.com/
+  React Starter Kit

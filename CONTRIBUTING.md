@@ -1,4 +1,4 @@
-## Contributing to React Starter Kit
+## Contributing to clone.earth
 
 Your contributions are welcome and are greatly appreciated! Every little bit helps, and credit
 will always be given.
