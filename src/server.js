@@ -24,8 +24,6 @@ import errorPageStyle from './routes/error/ErrorPage.css';
 import createFetch from './createFetch';
 import passport from './passport';
 import router from './router';
-import models from './data/models';
-import schema from './data/schema';
 import assets from './assets.json'; // eslint-disable-line import/no-unresolved
 import config from './config';
 
@@ -176,8 +174,6 @@ app.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
 //
 // Launch the server
 // -----------------------------------------------------------------------------
-models.sync().catch(err => console.error(err.stack)).then(() => {
-  app.listen(config.port, () => {
-    console.info(`The server is running at http://localhost:${config.port}/`);
-  });
+app.listen(config.port, () => {
+  console.info(`The server is running at http://localhost:${config.port}/`);
 });
