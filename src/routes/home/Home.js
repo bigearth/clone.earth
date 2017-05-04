@@ -9,7 +9,13 @@ class Home extends React.Component {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <h1>React.js News</h1>
+          <h1>Coming Soon</h1>
+          <div>
+            <img src='https://i.imgur.com/U9apCaa.jpg' alt='Clone Front' />
+          </div>
+          <div>
+            <img src='https://i.imgur.com/6JVMY1P.jpg' alt='Clone Back' />
+          </div>
         </div>
       </div>
     );
