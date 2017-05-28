@@ -3,20 +3,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.css';
+import { Jumbotron } from 'react-bootstrap';
 
 class Home extends React.Component {
   render() {
     return (
-      <div className={s.root}>
-        <div className={s.container}>
-          <h1>Coming Soon</h1>
+      <div className={s.container}>
+        <Jumbotron>
           <div>
-            <img src='https://i.imgur.com/U9apCaa.jpg' alt='Clone Front' />
+            <h1>Clone</h1>
+            <h2>Coming Soon</h2>
           </div>
-          <div>
-            <img src='https://i.imgur.com/6JVMY1P.jpg' alt='Clone Back' />
-          </div>
-        </div>
+        </Jumbotron>
       </div>
     );
   }

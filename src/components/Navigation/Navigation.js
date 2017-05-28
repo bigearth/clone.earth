@@ -4,13 +4,26 @@ import cx from 'classnames';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Navigation.css';
 import Link from '../Link';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 class Navigation extends React.Component {
   render() {
     return (
-      <div className={s.root} role="navigation">
-        <Link className={s.link} to="/about">About</Link>
-      </div>
+      <Navbar collapseOnSelect>
+        <Navbar.Header>
+          <Navbar.Brand>
+            <a href="/">EARTH</a>
+          </Navbar.Brand>
+          <Navbar.Toggle />
+        </Navbar.Header>
+        <Navbar.Collapse>
+          <Nav pullRight>
+            <li>
+              <a href="/about">About</a>
+            </li>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     );
   }
 }
