@@ -17,7 +17,10 @@ class Navigation extends React.Component {
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav pullRight>
+          <Nav>
+            <li>
+              <a href="/docs">Docs</a>
+            </li>
             <li>
               <a href="/about">About</a>
             </li>
