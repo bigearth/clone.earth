@@ -4,28 +4,25 @@ import cx from 'classnames';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Navigation.css';
 import Link from '../Link';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
 class Navigation extends React.Component {
   render() {
     return (
-      <Navbar collapseOnSelect>
+      <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/">EARTH</a>
+            <Link to="/">EARTH</Link>
           </Navbar.Brand>
-          <Navbar.Toggle />
         </Navbar.Header>
-        <Navbar.Collapse>
-          <Nav>
-            <li>
-              <a href="/docs">Docs</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
-            </li>
-          </Nav>
-        </Navbar.Collapse>
+        <Nav>
+          <NavDropdown eventKey={3} title="Docs" id="docs-dropdown">
+            <MenuItem eventKey={3.1} href="/software">Software</MenuItem>
+            <MenuItem eventKey={3.1} href="/hardware">Hardware</MenuItem>
+            <MenuItem eventKey={3.1} href="/docs">Contribute</MenuItem>
+          </NavDropdown>
+          <NavItem eventKey={1} href="/about">About</NavItem>
+        </Nav>
       </Navbar>
     );
   }

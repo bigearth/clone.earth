@@ -11,7 +11,8 @@ class Docs extends React.Component {
       <Grid>
         <Row>
           <Col xs={12}>
-            <h2>Documentation</h2>
+            <h2>Contribute</h2>
+            <p>Clone is 100% open source! Add to and/or extend it in any way you see possible.</p>
             <h3>Clone Marlin</h3>
             <p>Clone uses <a href='http://marlinfw.org/'>Marlin</a> to control the 3d printer&rsquo;s movements.</p>
             <p>Check out our custom <a href='https://github.com/bigearth/clone-marlin'>Marlin build</a> which has been tweaked for Clone&rsquo;s hardware.</p>
