@@ -1,17 +1,17 @@
 {
   "admin": {
-    "js": "/assets/admin.5cf4f57e.chunk.js"
+    "js": "/assets/admin.chunk.js"
   },
   "privacy": {
-    "js": "/assets/privacy.69c2ac5c.chunk.js"
+    "js": "/assets/privacy.chunk.js"
   },
   "about": {
-    "js": "/assets/about.8a938008.chunk.js"
+    "js": "/assets/about.chunk.js"
   },
   "client": {
-    "js": "/assets/client.713784f1.js"
+    "js": "/assets/client.js"
   },
   "vendor": {
-    "js": "/assets/vendor.e2d917c9.js"
+    "js": "/assets/vendor.js"
   }
 }
