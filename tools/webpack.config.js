@@ -18,7 +18,7 @@ const config = {
   context: path.resolve(__dirname, '..'),
 
   output: {
-    path: path.resolve(__dirname, '../build/public/assets'),
+    path: path.resolve(__dirname, '../public/assets'),
     publicPath: '/assets/',
     pathinfo: isVerbose,
   },
