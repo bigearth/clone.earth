@@ -11,7 +11,7 @@ class YAxisAssembly extends React.Component {
     return (
       <Grid>
         <Row>
-          <Col xs={12}>
+          <Col xs={12} className={s.root}>
             <div>
               <h2>Y Axis Assembly</h2>
               <h3>Step 1 Gather materials</h3>
