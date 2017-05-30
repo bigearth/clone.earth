@@ -9,14 +9,13 @@
 
 html {
   color: #222;
-  font-weight: 100;
-  font-size: 1em; /* ~16px; */
   font-family: var(--font-family-base);
   line-height: 1.375; /* ~22px */
 }
 
 body {
   margin: 0;
+  font-size: 1.5em; /* ~16px; */
 }
 
 a {
@@ -67,6 +66,10 @@ img,
 svg,
 video {
   vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
 }
 
 /*
