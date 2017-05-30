@@ -19,6 +19,14 @@ export default {
     require('./docs').default,
     require('./software').default,
     require('./hardware').default,
+    require('./y-axis-assembly').default,
+    require('./x-axis-assembly').default,
+    require('./z-axis-assembly').default,
+    require('./extruder-assembly').default,
+    require('./lcd-assembly').default,
+    require('./psu-assembly').default,
+    require('./heatbed-assembly').default,
+    require('./electronics-assembly').default,
 
     // Wildcard routes, e.g. { path: '*', ... } (must go last)
     require('./notFound').default,
