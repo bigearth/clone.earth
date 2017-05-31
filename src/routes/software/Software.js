@@ -19,11 +19,10 @@ class Software extends React.Component {
               <ul>
                 <li>my.clone.earth
                   <ul>
-                    <li>react-starter-kit</li>
-                    <li>need to handle sessions</li>
+                    <li><a href='https://cli.angular.io/'>ng2</a></li>
                   </ul>
                 </li>
-                <li>react-native app
+                <li><a href='https://facebook.github.io/react-native/'>React Native</a>
                   <ul>
                     <li>iOS</li>
                     <li>Android</li>
@@ -34,10 +33,7 @@ class Software extends React.Component {
               <ul>
                 <li>api.clone.earth
                   <ul>
-                    <li>Best REST framework?
-                      <ul>
-                        <li>Rails is my default choice</li>
-                      </ul>
+                    <li><a href='https://expressjs.com/'>Express</a>
                     </li>
                   </ul>
                 </li>
@@ -51,15 +47,15 @@ class Software extends React.Component {
               <h3>Clone Device</h3>
               <h4>CloneOS</h4>
               <ul>
-                <li><a href="https://github.com/bigearth/cloneos">https://github.com/bigearth/cloneos</a></li>
-                <li><a href="http://nerves-project.org/">http://nerves-project.org/</a></li>
-                <li><a href="https://elixir-lang.org/">https://elixir-lang.org/</a></li>
-                <li><a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">https://www.raspberrypi.org/products/raspberry-pi-3-model-b/</a></li>
+                <li><a href="https://github.com/bigearth/cloneos">CloneOS</a></li>
+                <li><a href="http://nerves-project.org/">Nerves</a></li>
+                <li><a href="https://elixir-lang.org/">Elixir</a></li>
+                <li><a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">Raspberry Pi</a></li>
               </ul>
               <h4>Marlin Firmware</h4>
               <ul>
-                <li><a href="http://marlinfw.org/">http://marlinfw.org/</a></li>
-                <li><a href="http://www.arduino.org/">http://www.arduino.org/</a></li>
+                <li><a href="http://marlinfw.org/">Marlin</a></li>
+                <li><a href="http://www.arduino.org/">Arduino</a></li>
               </ul>
             </div>
           </Col>
