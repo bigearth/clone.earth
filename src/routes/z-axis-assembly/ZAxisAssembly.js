@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './ZAxisAssembly.css';
-import { Jumbotron, Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 import Link from '../../components/Link';
 
 class ZAxisAssembly extends React.Component {
