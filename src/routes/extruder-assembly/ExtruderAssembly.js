@@ -333,7 +333,7 @@ class ExtruderAssembly extends React.Component {
               <img src='' />
               <hr />
               <h3>All Done!</h3>
-              <img src='https://i.imgur.com/wVwyMhr.jpg' />
+              <img src='https://i.imgur.com/Ujy1P1n.jpg' />
               <ul>
                 <li>Congratulations! Now on to the next step.</li>
               </ul>
