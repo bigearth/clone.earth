@@ -14,7 +14,7 @@ class Software extends React.Component {
             <div>
               <h2>Software</h2>
               <h3>High Level Overview</h3>
-              <img src='https://i.imgur.com/PBwvDJc.gif' />
+              <img src='https://i.imgur.com/77JejAe.gif' />
               <h3>User</h3>
               <ul>
                 <li>my.clone.earth

@@ -34,6 +34,14 @@ class Docs extends React.Component {
             <p>Written w/ <a href='https://facebook.github.io/react/'>React</a> and <a href='https://react-bootstrap.github.io/'>React Bootstrap</a></p>
           </Col>
         </Row>
+        <Row>
+          <Col xs={12}>
+            <h3>rest.clone.earth</h3>
+            <p><a href='https://github.com/bigearth/rest-cloud'>Github Repo</a>.</p>
+            <p>Clone&rsquo;s cloud REST endpoints</p>
+            <p>Written w/ <a href='https://expressjs.com/'>ExpressJS</a>.</p>
+          </Col>
+        </Row>
       </Grid>
     );
   }
