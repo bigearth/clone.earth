@@ -53,6 +53,7 @@ class ExtruderAssembly extends React.Component {
                 <li></li>
               </ul>
               <img src='https://i.imgur.com/GnFlR5p.jpg' />
+              <hr />
               <h3>Step 2 Prepare left extruder body</h3>
               <h4>Hardware</h4>
               <ul>
@@ -349,7 +350,6 @@ class ExtruderAssembly extends React.Component {
                 <li>Take nylon with upper cables (both fans, motor, probe) and make 1 turn with spiral wrap around them, then add remaining cables and continue with wrapping.</li>
                 <li>Use zipties and tighten the wrapped cables and spiral wrap.</li>
                 <li>Use one piece at the beginning of the spiral wrap, second one just after join of all cables and third at the end.</li>
-
               </ol>
               <img src='' />
               <hr />
