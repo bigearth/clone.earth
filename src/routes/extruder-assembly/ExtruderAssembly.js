@@ -29,6 +29,27 @@ class ExtruderAssembly extends React.Component {
               </ul>
               <h4>Hardware</h4>
               <ul>
+                <li>M3 nut x4</li>
+                <li>M3 square nut x4</li>
+                <li>Extruder x1</li>
+                <li>M3x18 x6</li>
+                <li>M3x25 x1</li>
+                <li>Stepper motor x1</li>
+                <li>Pulley x1</li>
+                <li>M3x20 x5</li>
+                <li>Proximity probe x1</li>
+                <li>Fan x1</li>
+                <li>M3x40 x3</li>
+                <li>shaft x1</li>
+                <li>M5 washer x2</li>
+                <li>bearing x1</li>
+                <li>M3 washer x4</li>
+                <li>Extruder spring x2</li>
+                <li>Print fan x1</li>
+                <li>Proximity probe x1</li>
+                <li>M3x30 screw x1</li>
+                <li>Zip Tie x4</li>
+                <li>Wire wrap x1</li>
                 <li></li>
               </ul>
               <img src='https://i.imgur.com/GnFlR5p.jpg' />
