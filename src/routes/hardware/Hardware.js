@@ -16,6 +16,9 @@ class Hardware extends React.Component {
               <h2>Hardware Assembly</h2>
               <ul>
                 <li>
+                  <a href="https://github.com/bigearth/clone-stls">.stl files for 3D printed parts</a>
+                </li>
+                <li>
                   <Link to="/y-axis-assembly">Y axis assembly</Link>
                 </li>
                 <li>
