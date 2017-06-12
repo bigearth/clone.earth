@@ -17,7 +17,7 @@ class ExtruderAssembly extends React.Component {
               <h3>Step 1 Gather materials</h3>
               <h4>Tools</h4>
               <ul>
-                <li>2.5 and 1.5 mm Allen key</li>
+                <li>2.5 and 1.5 mm Hex key</li>
                 <li>Needle-nose pliers</li>
               </ul>
               <h4>3D printed parts</h4>
@@ -99,7 +99,7 @@ class ExtruderAssembly extends React.Component {
               </ul>
               <img src='' />
               <ol>
-                <li>Using the 2.5mm Allen key tighten both screws to mount the extruder cover on the extruder body.</li>
+                <li>Using the 2.5mm Hex key tighten both screws to mount the extruder cover on the extruder body.</li>
               </ol>
               <img src='https://i.imgur.com/CcFHZmX.jpg' />
               <hr />
@@ -132,11 +132,11 @@ class ExtruderAssembly extends React.Component {
               <h3>Step 8 Tightening the pulley</h3>
               <h4>Hardware</h4>
               <ul>
-                <li>1.5mm Allen key</li>
+                <li>1.5mm Hex key</li>
               </ul>
               <img src='' />
               <ol>
-                <li>Using the 1.5mm Allen key tighten the pulley.</li>
+                <li>Using the 1.5mm Hex key tighten the pulley.</li>
                 <li>Make sure that the part with smaller diameter is perfectly aligned with the nozzle entrance.</li>
                 <li>Use a piece of filament to align the pulley with the openings for the filament (see the picture).</li>
               </ol>
@@ -183,37 +183,37 @@ class ExtruderAssembly extends React.Component {
               <h3>Step 12 placing the screws</h3>
               <h4>Hardware</h4>
               <ul>
-                <li>2.5 mm Allen key</li>
+                <li>2.5 mm Hex key</li>
               </ul>
               <img src='' />
               <ol>
-                <li>Screw the extruder screws into the extruder body using the 2.5 mm Allen key.</li>
+                <li>Screw the extruder screws into the extruder body using the 2.5 mm Hex key.</li>
               </ol>
               <img src='' />
               <hr />
               <h3>Step 13 Preparing the print fan</h3>
               <h4>Hardware</h4>
               <ul>
-                <li>2.5 mm Allen key</li>
+                <li>2.5 mm Hex key</li>
                 <li>Print fan x1</li>
                 <li>M3x20 screw x2</li>
               </ul>
               <img src='' />
               <ol>
-                <li>Screw the fan on to the extruder using the 2.5 mm Allen key</li>
+                <li>Screw the fan on to the extruder using the 2.5 mm Hex key</li>
               </ol>
               <img src='https://i.imgur.com/1Y2An6t.jpg' />
               <hr />
               <h3>Step 14 Prepare the fan nozzle</h3>
               <h4>Hardware</h4>
               <ul>
-                <li>2.5 mm Allen key</li>
+                <li>2.5 mm Hex key</li>
                 <li>Fan nozzle print x1</li>
                 <li>M3x20 screw x1</li>
               </ul>
               <img src='' />
               <ol>
-                <li>Tighten the fan nozzle using the 2.5 mm Allen key.</li>
+                <li>Tighten the fan nozzle using the 2.5 mm Hex key.</li>
               </ol>
               <img src='' />
               <hr />
@@ -256,15 +256,15 @@ class ExtruderAssembly extends React.Component {
               <h3>Step 18 Mounting the fan</h3>
               <h4>Hardware</h4>
               <ul>
-                <li>2.5 mm Allen key</li>
+                <li>2.5 mm Hex key</li>
                 <li>M3x18 screw x4</li>
                 <li>Fan x1</li>
               </ul>
               <img src='' />
               <ol>
                 <li>Guide cables from the extruder motor via slot in the extruder body, put the fan in place.</li>
-                <li>Mount the fan to the extruder body using the 2.5mm Allen key.</li>
-                <li>Tighten fan screws gently using the 2.5 mm Allen key.</li>
+                <li>Mount the fan to the extruder body using the 2.5mm Hex key.</li>
+                <li>Tighten fan screws gently using the 2.5 mm Hex key.</li>
               </ol>
               <img src='https://i.imgur.com/TL1kJRp.jpg' />
               <hr />
@@ -308,11 +308,11 @@ class ExtruderAssembly extends React.Component {
               <h3>Step 22 Securing Extruder in place</h3>
               <h4>Hardware</h4>
               <ul>
-                <li>2.5 mm Allen key</li>
+                <li>2.5 mm Hex key</li>
               </ul>
               <img src='' />
               <ol>
-                <li>Tighten the extruder in place using 2.5 mm Allen key.</li>
+                <li>Tighten the extruder in place using 2.5 mm Hex key.</li>
               </ol>
               <img src='' />
               <hr />

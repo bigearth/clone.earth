@@ -17,10 +17,10 @@ class ZAxisAssembly extends React.Component {
               <h3>Step 1 Gather materials</h3>
               <h4>Tools</h4>
               <ul>
-                <li>13/17mm spanners</li>
+                <li>Adjustable wrench</li>
                 <li>3.6mm flathead screwdriver</li>
                 <li>Needle-nose pliers</li>
-                <li>2.5 and 1.5mm Allen key</li>
+                <li>2.5 and 1.5mm Hex key</li>
               </ul>
               <h4>3D printed parts</h4>
               <ul>
@@ -50,7 +50,7 @@ class ZAxisAssembly extends React.Component {
               <img src='https://i.imgur.com/6RwYwlD.jpg' />
               <ol>
                 <li>Place parts on the frame</li>
-                <li>Use 2.5mm Allen key to tighten the parts to the frame.</li>
+                <li>Use 2.5mm Hex key to tighten the parts to the frame.</li>
                 <li>Tighten them gently.</li>
               </ol>
               <img src='https://i.imgur.com/UJp7kiF.jpg' />
@@ -66,7 +66,7 @@ class ZAxisAssembly extends React.Component {
               <ol>
                 <li>Place the Z motors on the frame.</li>
                 <li>Place washers and screws in place.</li>
-                <li>Use 2.5mm Allen key to tighten the motor to the printed part.</li>
+                <li>Use 2.5mm Hex key to tighten the motor to the printed part.</li>
               </ol>
               <img src='https://i.imgur.com/GrNVl4v.jpg' />
               <hr />

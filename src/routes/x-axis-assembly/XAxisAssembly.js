@@ -27,7 +27,7 @@ class XAxisAssembly extends React.Component {
               </ul>
               <h4>Hardware</h4>
               <ul>
-                <li>2.5mm Allen key</li>
+                <li>2.5mm Hex key</li>
                 <li>Needle-nose pliers</li>
               </ul>
               <img src='https://i.imgur.com/kNhiBiU.jpg' />
