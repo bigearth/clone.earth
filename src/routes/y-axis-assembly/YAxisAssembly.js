@@ -117,7 +117,7 @@ class YAxisAssembly extends React.Component {
                 <li>Aluminum Frame x1</li>
                 <li>Y axis stage from previous steps</li>
               </ul>
-              <img src='https://i.imgur.com/kCkUdcW.jpg' />
+              <img src='https://i.imgur.com/hpzVBbo.jpg' />
               <ol>
                 <li>Insert the Y-axis stage into the frame as close to Y-corners as possible.</li>
                 <li>Adjust and tighten the M8n nuts.</li>

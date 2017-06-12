@@ -337,7 +337,7 @@ class ExtruderAssembly extends React.Component {
               <ol>
                 <li>Once all cables are neatly arranged finalize it by tightening the ziptie and cutting off the excessive piece.</li>
               </ol>
-              <img src='https://i.imgur.com/wrNxP32.jpg' />
+              <img src='https://i.imgur.com/wR2FYSC.jpg' />
               <hr />
               <h3>Step 25 Preparing the spiral wrap</h3>
               <h4>Hardware</h4>
@@ -354,7 +354,7 @@ class ExtruderAssembly extends React.Component {
               <img src='' />
               <hr />
               <h3>All Done!</h3>
-              <img src='https://i.imgur.com/Ujy1P1n.jpg' />
+              <img src='https://i.imgur.com/BOmItZ3.jpg' />
               <ul>
                 <li>Congratulations! Now on to the next step.</li>
               </ul>

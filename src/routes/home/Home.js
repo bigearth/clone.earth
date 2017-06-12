@@ -24,16 +24,7 @@ class Home extends React.Component {
         </Row>
         <Row>
           <Col xs={12}>
-            <img src='https://i.imgur.com/QBfUOx0.jpg' />
-          </Col>
-        </Row>
-        <Row>
-          <h2>Performance and Quality</h2>
-          <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/kpgHVJy.jpg' />
-          </Col>
-          <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/cscwdf4.jpg' />
+            <img src='https://i.imgur.com/BOmItZ3.jpg' />
           </Col>
         </Row>
       </Grid>

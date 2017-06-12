@@ -47,13 +47,13 @@ class ZAxisAssembly extends React.Component {
                 <li>M3x10 screw x10</li>
                 <li>M3 locknut x10</li>
               </ul>
-              <img src='https://i.imgur.com/RZKlD4w.jpg' />
+              <img src='https://i.imgur.com/6RwYwlD.jpg' />
               <ol>
                 <li>Place parts on the frame</li>
                 <li>Use 2.5mm Allen key to tighten the parts to the frame.</li>
                 <li>Tighten them gently.</li>
               </ol>
-              <img src='https://i.imgur.com/VorNcLa.jpg' />
+              <img src='https://i.imgur.com/UJp7kiF.jpg' />
               <hr />
               <h3>Step 3 Attach the Z axis motors</h3>
               <h4>Hardware</h4>
@@ -62,13 +62,13 @@ class ZAxisAssembly extends React.Component {
                 <li>M3x10 screw x8</li>
                 <li>M3x10 washer x8</li>
               </ul>
-              <img src='https://i.imgur.com/SWy6klq.jpg' />
+              <img src='https://i.imgur.com/BBEQ2L9.jpg' />
               <ol>
                 <li>Place the Z motors on the frame.</li>
                 <li>Place washers and screws in place.</li>
                 <li>Use 2.5mm Allen key to tighten the motor to the printed part.</li>
               </ol>
-              <img src='https://i.imgur.com/xVYmiO3.jpg' />
+              <img src='https://i.imgur.com/GrNVl4v.jpg' />
               <hr />
               <h3>Step 4</h3>
               <h4>Hardware</h4>
@@ -78,14 +78,14 @@ class ZAxisAssembly extends React.Component {
                 <li>5M to 8M flex coupler x2</li>
                 <li>M3x10 screw x2</li>
               </ul>
-              <img src='https://i.imgur.com/Z96fc5J.jpg' />
+              <img src='https://i.imgur.com/jHVyOU9.jpg' />
               <ol>
                 <li>Screw the bushings on the lead screws</li>
                 <li>Place the screws in the bushings</li>
                 <li>Place the lead screw in the 8M side of the flex coupler and tighten.</li>
                 <li>Place the motor shaft in the 5M side of the flex coupler and tighten.</li>
               </ol>
-              <img src='https://i.imgur.com/k0RO6O3.jpg' />
+              <img src='https://i.imgur.com/IrU3Rs9.jpg' />
               <hr />
               <h3>Step 4 Attach the X Axis</h3>
               <h4>Hardware</h4>
@@ -93,7 +93,7 @@ class ZAxisAssembly extends React.Component {
                 <li>Assembled X Axis</li>
                 <li>Chrome rod x2</li>
               </ul>
-              <img src='https://i.imgur.com/5RfEXsX.jpg' />
+              <img src='https://i.imgur.com/SSyZTMq.jpg' />
               <ol>
                 <li>Remove Z Axis tops from frame.</li>
                 <li>Remove lead screw bushings.</li>
@@ -102,7 +102,7 @@ class ZAxisAssembly extends React.Component {
                 <li>Insert chrome rods in to z bottoms.</li>
                 <li>Reattach z axis tops to frame.</li>
               </ol>
-              <img src='https://i.imgur.com/FiP36G0.jpg' />
+              <img src='https://i.imgur.com/LLkxEh2.jpg' />
               <hr />
               <h3>All Done!</h3>
               <ul>
