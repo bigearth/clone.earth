@@ -39,8 +39,7 @@ class Software extends React.Component {
                 </li>
                 <li>mqtt.clone.earth
                   <ul>
-                    <li>framework?</li>
-                    <li>lib?</li>
+                    <li><a href='https://github.com/mqttjs'>mqttjs</a></li>
                   </ul>
                 </li>
               </ul>
