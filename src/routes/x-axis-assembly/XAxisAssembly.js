@@ -17,18 +17,29 @@ class XAxisAssembly extends React.Component {
               <h3>Step 1 Gather materials</h3>
               <h4>Tools</h4>
               <ul>
-                <li></li>
+                <li>Needle nose pliers x1</li>
+                <li>2.5 Hex key</li>
               </ul>
               <h4>3D printed parts</h4>
               <ul>
-                <li>X-carriage</li>
-                <li>X-end-motor</li>
-                <li>X-end-idler</li>
+                <li>Carriage x1</li>
+                <li>Motor x1</li>
+                <li>Idler x1</li>
               </ul>
               <h4>Hardware</h4>
               <ul>
-                <li>2.5mm Hex key</li>
-                <li>Needle-nose pliers</li>
+                <li>M8 Chrome rod 35 x2</li>
+                <li>Linear bearings x7</li>
+                <li>X axis endstop x1</li>
+                <li>GT2 pulley x1</li>
+                <li>Idler bearing x1</li>
+                <li>Zip tie x6</li>
+                <li>M3x10 screw x3</li>
+                <li>M3 square nut x3</li>
+                <li>M3x18 screw x5</li>
+                <li>Nema 17 stepper motor x1</li>
+                <li>GT2 belt 68cm x1</li>
+                <li>M3 locknut x2</li>
               </ul>
               <img src='https://i.imgur.com/kNhiBiU.jpg' />
               <hr />
