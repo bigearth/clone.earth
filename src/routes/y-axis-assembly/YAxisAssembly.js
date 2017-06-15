@@ -19,7 +19,7 @@ class YAxisAssembly extends React.Component {
               <ul>
                 <li>Adjustable wrench x2</li>
                 <li>Needle nose pliers x1</li>
-                <li>2.5 and 1.5mm Hex key</li>
+                <li>2 and 1.5mm Hex keys</li>
               </ul>
               <h4>3D printed parts</h4>
               <ul>
@@ -30,26 +30,46 @@ class YAxisAssembly extends React.Component {
               </ul>
               <h4>Hardware</h4>
               <ul>
-                <li>M10 threaded rod 38 cm x2</li>
-                <li>M8 threaded rod 21 cm x4</li>
-                <li>M10 Chrome rod 37 cm x2</li>
-                <li>M10 nuts x14</li>
-                <li>M10 washers x12</li>
-                <li>M8 nuts x22</li>
-                <li>M8 washers x22</li>
-                <li>Linear bearings x3</li>
-                <li>Y axis carriage x1</li>
-                <li>Y axis endstop x1</li>
-                <li>Zip ties x4</li>
-                <li>GT2 belt 97 cm x1</li>
-                <li>Bearing housing x1 </li>
-                <li>M3 locknut x3</li>
-                <li>M3 washer x2</li>
-                <li>Nema 17 stepper motor x1</li>
-                <li>GT2 pulley x1</li>
-                <li>M3x25 screw x1</li>
-                <li>M3x10 screw x2</li>
-                <li>M3x18 screw x4</li>
+                <li>
+                  Rods
+                  <ul>
+                    <li>M10 threaded rod 38 cm x2</li>
+                    <li>M8 Chrome rod 37 cm x2</li>
+                    <li>M8 threaded rod 21 cm x4</li>
+                  </ul>
+                </li>
+                <li>
+                  Nuts &amp; Bolts
+                  <ul>
+                    <li>M3x10 screw x2</li>
+                    <li>M3x18 screw x4</li>
+                    <li>M3x25 screw x1</li>
+                    <li>M10 nuts x14</li>
+                    <li>M10 washers x12</li>
+                    <li>M8 nuts x22</li>
+                    <li>M8 washers x22</li>
+                    <li>Bearing housing x1 </li>
+                    <li>M3 locknut x3</li>
+                    <li>M3 washer x2</li>
+                    <li>GT2 pulley x1</li>
+                  </ul>
+                </li>
+                <li>
+                  Electronics
+                  <ul>
+                    <li>Y axis endstop x1</li>
+                    <li>Nema 17 stepper motor x1</li>
+                  </ul>
+                </li>
+                <li>
+                  Miscellaneous
+                  <ul>
+                    <li>Linear bearings x3</li>
+                    <li>Y axis carriage x1</li>
+                    <li>Zip ties x4</li>
+                    <li>GT2 belt 97 cm x1</li>
+                  </ul>
+                </li>
               </ul>
               <img src='https://i.imgur.com/sasJiyT.jpg' />
               <hr />
@@ -152,7 +172,7 @@ class YAxisAssembly extends React.Component {
               </ul>
               <img src='https://i.imgur.com/Rj9IsiB.jpg' />
               <ol>
-                <li>To tighten the Y-idler, use the pliers and 2.5mm Hex key.</li>
+                <li>To tighten the Y-idler, use the pliers and 2mm Hex key.</li>
                 <li>Tighten the screw gently, just half turn max after the washers touch the 3D printed part.</li>
               </ol>
               <img src='https://i.imgur.com/sbJa9SN.jpg' />
@@ -165,7 +185,7 @@ class YAxisAssembly extends React.Component {
               </ul>
               <img src='https://i.imgur.com/qseU1ax.jpg' />
               <ol>
-                <li>Using the 2.5mm Hex key, secure the motor to the 3D printed part. Motor cables must be facing threaded rods.</li>
+                <li>Using the 2mm Hex key, secure the motor to the 3D printed part. Motor cables must be facing threaded rods.</li>
                 <li>Tighten the motor gently to avoid damage to the 3D printed part.</li>
               </ol>
               <img src='https://i.imgur.com/LwkMjCD.jpg' />
