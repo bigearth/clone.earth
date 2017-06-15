@@ -437,10 +437,10 @@ class YAxisAssembly extends React.Component {
         <Row>
           <Col xs={12} md={6} className={s.root}>
             <h3>All Done!</h3>
+            <p>Congratulations! Now on to the next step.</p>
+          </Col>
+          <Col xs={12} md={6} className={s.root}>
             <img src='https://i.imgur.com/p5Pe9Pr.jpg' />
-            <ul>
-              <li>Congratulations! Now on to the next step.</li>
-            </ul>
           </Col>
         </Row>
       </Grid>
