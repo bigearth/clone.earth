@@ -18,7 +18,6 @@ class YAxisAssembly extends React.Component {
               <h4>Tools</h4>
               <ul>
                 <li>Adjustable wrench x2</li>
-                <li>3.6mm flathead screwdriver x1</li>
                 <li>Needle nose pliers x1</li>
                 <li>2.5 and 1.5mm Hex key</li>
               </ul>
