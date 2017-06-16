@@ -47,10 +47,11 @@ class YAxisAssembly extends React.Component {
                   <li>M10 washers x12</li>
                   <li>M8 nuts x22</li>
                   <li>M8 washers x22</li>
-                  <li>Bearing housing x1 </li>
+                  <li>Idler Bearing x1 </li>
                   <li>M3 locknut x3</li>
                   <li>M3 washer x2</li>
                   <li>GT2 pulley x1</li>
+                  <li>Linear bearings x3</li>
                 </ul>
               </li>
               <li>
@@ -63,7 +64,6 @@ class YAxisAssembly extends React.Component {
               <li>
                 Miscellaneous
                 <ul>
-                  <li>Linear bearings x3</li>
                   <li>Y axis carriage x1</li>
                   <li>Zip ties x4</li>
                   <li>GT2 belt 97 cm x1</li>
