@@ -72,7 +72,28 @@ class YAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/sasJiyT.jpg' />
+            <p><img src='https://i.imgur.com/sasJiyT.jpg' /></p>
+            <p>Watch how this is assembled.</p>
+            <ul>
+              <li>
+                <a href='https://www.youtube.com/watch?v=dEyroKoFHkw'>Clone Y Axis Assembly pt 1</a>
+              </li>
+              <li>
+                <a href='https://www.youtube.com/watch?v=lSSVv5N3OVk'>Clone Y Axis Assembly pt 2</a>
+              </li>
+              <li>
+                <a href='https://www.youtube.com/watch?v=mc5PCTaUUeY'>Clone Y Axis Assembly pt 3</a>
+              </li>
+              <li>
+                <a href='https://www.youtube.com/watch?v=De_r0noNFU'>Clone Y Axis Assembly pt 4</a>
+              </li>
+              <li>
+                <a href='https://www.youtube.com/watch?v=UCKhUHuvsJs'>Clone Y Axis Assembly pt 5</a>
+              </li>
+              <li>
+                <a href='https://www.youtube.com/watch?v=WLLdzBGMX2A'>Clone Y Axis Assembly pt 6</a>
+              </li>
+            </ul>
           </Col>
         </Row>
         <hr />
