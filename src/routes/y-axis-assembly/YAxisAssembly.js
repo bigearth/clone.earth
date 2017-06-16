@@ -279,6 +279,8 @@ class YAxisAssembly extends React.Component {
               <li>To tighten the Y-idler, use the pliers and 2mm Hex key.</li>
               <li>Tighten the screw gently, just half turn max after the washers touch the 3D printed part.</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6} className={s.root}>
             <img src='https://i.imgur.com/sbJa9SN.jpg' />
           </Col>
         </Row>

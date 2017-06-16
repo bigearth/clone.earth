@@ -77,7 +77,11 @@ class XAxisAssembly extends React.Component {
             <ol>
               <li>Carefully slide linear bearings on rods.</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 3 Prepare the printed parts</h3>
             <h4>Hardware</h4>
             <ul>
@@ -88,7 +92,11 @@ class XAxisAssembly extends React.Component {
             <ol>
               <li>Insert linear bearing into the printed parts.</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 4 Prepare the tension screws</h3>
             <h4>Hardware</h4>
             <ul>
@@ -100,7 +108,11 @@ class XAxisAssembly extends React.Component {
               <li>Insert M3 square nuts and put in place M3x10 screws.</li>
               <li>Avoid overtightening of the screws.</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 5 Assemble the X-axis base</h3>
             <h4>Hardware</h4>
             <ul>
@@ -111,7 +123,11 @@ class XAxisAssembly extends React.Component {
               <li>Insert the rods with bearings fully into the printed parts.</li>
               <li>Ensure the correct orientation of the parts and rods (rod with 2 bearings must be on the side with the nut trap).</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 6 Preparing the X-end idler</h3>
             <h4>Hardware</h4>
             <ul>
@@ -124,7 +140,11 @@ class XAxisAssembly extends React.Component {
               <li>Secure it in position using M3x18 screw.</li>
               <li>Tighten it with M3 nylock nut, but the idler (wheel) must rotate freely.</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 7 Prepare the X carriage</h3>
             <h4>Hardware</h4>
             <ul>
@@ -134,7 +154,11 @@ class XAxisAssembly extends React.Component {
             <ol>
               <li>Insert zipties into the X-carriage.</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 8 Placing the X carriage</h3>
             <h4>Hardware</h4>
             <ul>
@@ -147,7 +171,11 @@ class XAxisAssembly extends React.Component {
               <li>Use pliers to tighten the zipties.</li>
               <li>Use pliers to cut off any excess ziptie.</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 9 Assemble the X Motor</h3>
             <h4>Hardware</h4>
             <ul>
@@ -158,7 +186,11 @@ class XAxisAssembly extends React.Component {
               <li>Tighten the motor to the X-end-motor part.</li>
               <li>Ensure the correct position of cables (Cables should face down).</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 10 Assemble the X motor pulley</h3>
             <h4>Hardware</h4>
             <ul>
@@ -168,7 +200,11 @@ class XAxisAssembly extends React.Component {
               <li>Place GT2 pulley on the X motor shaft.</li>
               <li>Tighten up the pulley.</li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
             <h3>Step 11 Assemble the X endstop</h3>
             <h4>Hardware</h4>
             <ul>
