@@ -36,10 +36,10 @@ class XAxisAssembly extends React.Component {
               <li>
                 Nuts &amp; Bolts
                 <ul>
-                  <li>M3x10 screw x3</li>
-                  <li>M3 square nut x3</li>
-                  <li>M3x18 screw x5</li>
-                  <li>M3 locknut x2</li>
+                  <li>M3x10 screw x2</li>
+                  <li>M3 square nut x2</li>
+                  <li>M3x18 screw x4</li>
+                  <li>M3 locknut x1</li>
                   <li>GT2 pulley x1</li>
                   <li>Linear bearings x7</li>
                   <li>Idler Bearing x1</li>
@@ -133,7 +133,7 @@ class XAxisAssembly extends React.Component {
             <ul>
               <li>M3x18 screw x1</li>
               <li>bearing w/ housing x1</li>
-              <li>M3 locknuet x1</li>
+              <li>M3 locknut x1</li>
             </ul>
             <ol>
               <li>Insert the bearing into the X-end idler.</li>
@@ -214,7 +214,15 @@ class XAxisAssembly extends React.Component {
             <ol>
               <li>Place the endstop on the printed part and insert </li>
             </ol>
-            <hr />
+          </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col xs={12} md={6} className={s.root}>
+            <h3>All Done!</h3>
+            <p>Congratulations! Now on to the next step.</p>
+          </Col>
+          <Col xs={12} md={6} className={s.root}>
             <img src='https://i.imgur.com/jdpvRQy.jpg' />
           </Col>
         </Row>
