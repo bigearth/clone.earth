@@ -3,15 +3,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Hardware.css';
-import { Jumbotron, Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid, Row, Col, Button, Image } from 'react-bootstrap';
 import Link from '../../components/Link';
 
 class Hardware extends React.Component {
   render() {
     return (
-      <Grid>
+      <Grid fluid>
         <Row>
-          <Col xs={12}>
+          <Col xs={12} md={6}>
             <div>
               <h2>Hardware Assembly</h2>
               <ul>
@@ -44,6 +44,9 @@ class Hardware extends React.Component {
                 </li>
               </ul>
             </div>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/sasJiyT.jpg' />
           </Col>
         </Row>
       </Grid>
