@@ -9,7 +9,7 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 class Navigation extends React.Component {
   render() {
     return (
-      <Navbar>
+      <Navbar inverse className={s.root}>
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">EARTH</Link>

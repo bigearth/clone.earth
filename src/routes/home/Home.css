@@ -2,4 +2,7 @@
 @import '../../components/variables.css';
 
 .root {
+  img {
+    padding: 0;
+  }
 }

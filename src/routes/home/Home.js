@@ -3,31 +3,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.css';
-import { Jumbotron, Grid, Row, Col, Button } from 'react-bootstrap';
+import { Jumbotron, Grid, Row, Col, Button, Image } from 'react-bootstrap';
 
 class Home extends React.Component {
   render() {
     return (
-      <Grid>
-        <Row>
-          <Col xs={12}>
-            <Jumbotron>
-              <div>
-                <h1>Clone</h1>
-                <h2>Make your world.</h2>
-                <a href='/preorder'>
-                  <Button bsStyle="primary" bsSize="large">Preorder</Button>
-                </a>
-              </div>
-            </Jumbotron>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={12}>
-            <img src='https://i.imgur.com/BOmItZ3.jpg' />
-          </Col>
-        </Row>
-      </Grid>
+      <div className={s.root}>
+        <Image src="https://i.imgur.com/BOmItZ3.jpg" thumbnail />
+      </div>
     );
   }
 }
