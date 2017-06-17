@@ -1,19 +1,18 @@
 
 import React from 'react';
 import Layout from '../../components/Layout';
-import Page from '../../components/Page';
+import About from './About';
+
+const title = 'About Clone';
 
 export default {
 
   path: '/about',
 
-  async action() {
-    const data = await require.ensure([], require => require('./about.md'), 'about');
-
+  action() {
     return {
-      title: data.title,
-      chunk: 'about',
-      component: <Layout><Page {...data} /></Layout>,
+      title,
+      component: <Layout><About title={title} /></Layout>,
     };
   },
 
