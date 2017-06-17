@@ -5,4 +5,21 @@
   img {
     padding: 0;
   }
+  
+  h1, h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+  h1 {
+    font-size: 4em;
+    top: 25%
+  }
+
+  h2 {
+    font-size: 3em;
+    top: 45%
+  }
 }
