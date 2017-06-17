@@ -3,15 +3,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './YAxisAssembly.css';
-import { Jumbotron, Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
 import Link from '../../components/Link';
 
 class YAxisAssembly extends React.Component {
   render() {
     return (
-      <Grid>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+      <Grid fluid>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h2>Y Axis Assembly</h2>
             <h3>Step 1 Gather materials</h3>
             <h4>Tools</h4>
@@ -71,8 +71,8 @@ class YAxisAssembly extends React.Component {
               </li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <p><img src='https://i.imgur.com/sasJiyT.jpg' /></p>
+          <Col xs={12} md={6}>
+            <p><Image src='https://i.imgur.com/sasJiyT.jpg' /></p>
             <p>Watch how this is assembled.</p>
             <ul>
               <li>
@@ -97,8 +97,8 @@ class YAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 2 Assemble the Y-axis rods</h3>
             <h4>Hardware</h4>
             <ul>
@@ -107,25 +107,25 @@ class YAxisAssembly extends React.Component {
               <li>M10 nuts x14</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/Wdftzpu.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/Wdftzpu.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Screw the nuts on and place washers and Y-corners on the threaded rod.</li>
               <li>Ensure 100mm distance between a washer after counter-nut and the Y-axis corner.</li>
               <li>The 2 nuts have to be tightened against each other (counter-nut).</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/75YHQ8L.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/75YHQ8L.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 3 Assemble the Y-axis stage rear</h3>
             <h4>Hardware</h4>
             <ul>
@@ -134,25 +134,25 @@ class YAxisAssembly extends React.Component {
               <li>M8 nuts x4</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/FmUzImN.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/FmUzImN.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Screw the nuts and place washers and Y-motor-holder on threaded rod.</li>
               <li>Y-motor-mount should be somewhere in the middle of the threaded rod. The precise position doesn&rsquo;t matter at this time.</li>
               <li>Ensure the correct orientation of Y-motor-holder.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/mpa5uom.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/mpa5uom.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 4 Assemble the Y-axis stage front</h3>
             <h4>Hardware</h4>
             <ul>
@@ -161,24 +161,24 @@ class YAxisAssembly extends React.Component {
               <li>M8 nuts x6</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/JH8kvCk.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/JH8kvCk.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Screw the nuts and place washers and Y-idler on threaded rod.</li>
               <li>Y-idler should be somewhere in the middle of the threaded rod. The precise position doesn&rsquo;t matter at this time.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/r5rBEJd.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/r5rBEJd.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 5 Fully assemble the Y-axis stage</h3>
             <h4>Hardware</h4>
             <ul>
@@ -186,24 +186,24 @@ class YAxisAssembly extends React.Component {
               <li>M8 nuts x8</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/M4d86WM.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/M4d86WM.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert Y-axis stage front and back into Y-axis side elements and lock it with washers and nuts.</li>
               <li>Ensure the correct placement. Y-axis rear stage has to be closer to the double-nuts.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/Qz48Fyh.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/Qz48Fyh.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 6 Prepare for the Y-axis stage</h3>
             <h4>Hardware</h4>
             <ul>
@@ -211,12 +211,12 @@ class YAxisAssembly extends React.Component {
               <li>Y axis stage from previous steps</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/hpzVBbo.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/hpzVBbo.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert the Y-axis stage into the frame as close to Y-corners as possible.</li>
               <li>Adjust and tighten the M8n nuts.</li>
@@ -226,13 +226,13 @@ class YAxisAssembly extends React.Component {
               <li>It is incredibly important that the axis is perfectly rectangular at this stage of construction, all rods need to be perfectly straight and level. If not, you&rsquo;ll have troubles calibrating later on.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/aLTqj1G.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/aLTqj1G.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 7 Assemble the Y carriage</h3>
             <h4>Hardware</h4>
             <ul>
@@ -241,25 +241,25 @@ class YAxisAssembly extends React.Component {
               <li>Linear bearings x3</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/o6eUS80.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/o6eUS80.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert zipties into the Y-carriage as shown on the picture.</li>
               <li>Place the linear bearings in cutouts.</li>
               <li>On side with two bearings slide bearings to the center, towards each other as close as possible.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/9qj4Q7P.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/9qj4Q7P.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 8 Assemble the Y idler</h3>
             <h4>Hardware</h4>
             <ul>
@@ -269,24 +269,24 @@ class YAxisAssembly extends React.Component {
               <li>M3 lock nut x1</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/Rj9IsiB.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/Rj9IsiB.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>To tighten the Y-idler, use the pliers and 2mm Hex key.</li>
               <li>Tighten the screw gently, just half turn max after the washers touch the 3D printed part.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/sbJa9SN.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/sbJa9SN.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Y axis motor</h3>
             <h4>Hardware</h4>
             <ul>
@@ -294,24 +294,24 @@ class YAxisAssembly extends React.Component {
               <li>M3x10 screw x2</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/qseU1ax.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/qseU1ax.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Using the 2mm Hex key, secure the motor to the 3D printed part. Motor cables must be facing threaded rods.</li>
               <li>Tighten the motor gently to avoid damage to the 3D printed part.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/LwkMjCD.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/LwkMjCD.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Y Endstop</h3>
             <h4>Hardware</h4>
             <ul>
@@ -319,70 +319,70 @@ class YAxisAssembly extends React.Component {
               <li>Endstop x1</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/rlxargp.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/rlxargp.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>To tighten the Y-endstop use 1.5mm Hex key.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/wRt33HE.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/wRt33HE.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Y belt holder</h3>
             <h4>Hardware</h4>
             <ul>
               <li>M3x18 screw x2</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/3gOVgJQ.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/3gOVgJQ.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Place Y-belt holder on the Y-carriage.</li>
               <li>Be aware of the orientation of Y-belt holder (belt entry should face towards single bearing).</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/pTwerlu.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/pTwerlu.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Y carriage rods</h3>
             <h4>Hardware</h4>
             <ul>
               <li>Chrome rod 37 cm x2</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/bBVvcti.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/bBVvcti.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert the 8mm smooth rods into the linear bearings on Y-carriage.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/B7X9n2f.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/B7X9n2f.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Assemble the Y axis stage</h3>
             <h4>Hardware</h4>
             <ul>
@@ -390,25 +390,25 @@ class YAxisAssembly extends React.Component {
               <li>Assembled y stage</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/3mQwKt2.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/3mQwKt2.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert the assembled Y-carriage into the Y-axis stage.</li>
               <li>Insert zipties into holes in Y-corners.</li>
               <li>Using pliers, tighten the zipties as shown in the picture.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/jZSNY4K.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/jZSNY4K.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Add Y motor pulley</h3>
             <h4>Hardware</h4>
             <ul>
@@ -416,54 +416,54 @@ class YAxisAssembly extends React.Component {
               <li>GT2 pulley x1</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/WcPBlXx.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/WcPBlXx.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Add pulley to motor shaft and tighten.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/zzOmwY4.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/zzOmwY4.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Add belt to y axis</h3>
             <h4>Hardware</h4>
             <ul>
               <li>Pulley timing belt x1</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <p><img src='https://i.imgur.com/MOKcNa0.jpg' /></p>
+          <Col xs={12} md={6}>
+            <p><Image src='https://i.imgur.com/MOKcNa0.jpg' /></p>
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Run around y idler.</li>
               <li>Run around y motor</li>
               <li>Loop around y carriage holder.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <p><img src='https://i.imgur.com/4QOUmRl.jpg' /></p>
-            <p><img src='https://i.imgur.com/QUWvM1j.jpg' /></p>
+          <Col xs={12} md={6}>
+            <p><Image src='https://i.imgur.com/4QOUmRl.jpg' /></p>
+            <p><Image src='https://i.imgur.com/QUWvM1j.jpg' /></p>
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>All Done!</h3>
             <p>Congratulations! Now on to the next step.</p>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
-            <img src='https://i.imgur.com/p5Pe9Pr.jpg' />
+          <Col xs={12} md={6}>
+            <Image src='https://i.imgur.com/p5Pe9Pr.jpg' />
           </Col>
         </Row>
       </Grid>

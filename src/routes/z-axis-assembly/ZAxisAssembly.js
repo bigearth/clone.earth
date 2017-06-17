@@ -9,9 +9,9 @@ import Link from '../../components/Link';
 class ZAxisAssembly extends React.Component {
   render() {
     return (
-      <Grid>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+      <Grid fluid>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h2>Z Axis Assembly</h2>
             <h3>Step 1 Gather materials</h3>
             <h4>Tools</h4>
@@ -56,13 +56,13 @@ class ZAxisAssembly extends React.Component {
               </li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/Fh8g5xM.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 2 Attach Z axis tops and bottoms</h3>
             <h4>Hardware</h4>
             <ul>
@@ -70,26 +70,26 @@ class ZAxisAssembly extends React.Component {
               <li>M3 locknut x10</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/6RwYwlD.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Place parts on the frame</li>
               <li>Use 2.5mm Hex key to tighten the parts to the frame.</li>
               <li>Tighten them gently.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/UJp7kiF.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 3 Attach the Z axis motors</h3>
             <h4>Hardware</h4>
             <ul>
@@ -98,25 +98,25 @@ class ZAxisAssembly extends React.Component {
               <li>M3 washer x8</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/BBEQ2L9.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Place the Z motors on the frame.</li>
               <li>Place washers and screws in place.</li>
               <li>Use 2.5mm Hex key to tighten the motor to the printed part.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/GrNVl4v.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 4</h3>
             <h4>Hardware</h4>
             <ul>
@@ -126,12 +126,12 @@ class ZAxisAssembly extends React.Component {
               <li>M3x10 screw x2</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/jHVyOU9.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Screw the bushings on the lead screws</li>
               <li>Place the screws in the bushings</li>
@@ -139,13 +139,13 @@ class ZAxisAssembly extends React.Component {
               <li>Place the motor shaft in the 5M side of the flex coupler and tighten.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/IrU3Rs9.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>Step 4 Attach the X Axis</h3>
             <h4>Hardware</h4>
             <ul>
@@ -153,12 +153,12 @@ class ZAxisAssembly extends React.Component {
               <li>Chrome rod x2</li>
             </ul>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/SSyZTMq.jpg' />
           </Col>
         </Row>
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Remove Z Axis tops from frame.</li>
               <li>Remove lead screw bushings.</li>
@@ -168,13 +168,13 @@ class ZAxisAssembly extends React.Component {
               <li>Reattach z axis tops to frame.</li>
             </ol>
           </Col>
-          <Col xs={12} md={6} className={s.root}>
+          <Col xs={12} md={6}>
             <img src='https://i.imgur.com/LLkxEh2.jpg' />
           </Col>
         </Row>
         <hr />
-        <Row>
-          <Col xs={12} md={6} className={s.root}>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <h3>All Done!</h3>
             <ul>
               <li>Congratulations! Now on to the next step.</li>
