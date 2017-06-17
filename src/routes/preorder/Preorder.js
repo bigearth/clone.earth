@@ -9,7 +9,7 @@ class Preorder extends React.Component {
   render() {
     return (
       <Grid fluid className={s.root}>
-        <Row>
+        <Row className={s.preorderContainer}>
           <Col xs={12}>
             <h2>Coming Soon</h2>
             <p>Thanks for being so enthusiastic! We appreciate it. Check back soon.</p>
