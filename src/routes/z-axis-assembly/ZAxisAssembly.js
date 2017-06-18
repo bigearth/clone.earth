@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './ZAxisAssembly.css';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-import Link from '../../components/Link';
 
 class ZAxisAssembly extends React.Component {
   render() {

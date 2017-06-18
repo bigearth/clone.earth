@@ -4,13 +4,12 @@ import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './XAxisAssembly.css';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-import Link from '../../components/Link';
 
 class XAxisAssembly extends React.Component {
   render() {
     return (
       <Grid fluid>
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h2>X Axis Assembly</h2>
             <h3>Step 1 Gather materials</h3>
@@ -66,7 +65,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 2 Assemble the Y-axis rods</h3>
             <h4>Hardware</h4>
@@ -80,7 +79,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 3 Prepare the printed parts</h3>
             <h4>Hardware</h4>
@@ -95,7 +94,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 4 Prepare the tension screws</h3>
             <h4>Hardware</h4>
@@ -111,7 +110,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 5 Assemble the X-axis base</h3>
             <h4>Hardware</h4>
@@ -126,7 +125,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 6 Preparing the X-end idler</h3>
             <h4>Hardware</h4>
@@ -143,7 +142,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 7 Prepare the X carriage</h3>
             <h4>Hardware</h4>
@@ -157,7 +156,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 8 Placing the X carriage</h3>
             <h4>Hardware</h4>
@@ -174,7 +173,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 9 Assemble the X Motor</h3>
             <h4>Hardware</h4>
@@ -189,7 +188,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 10 Assemble the X motor pulley</h3>
             <h4>Hardware</h4>
@@ -203,7 +202,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Step 11 Assemble the X endstop</h3>
             <h4>Hardware</h4>
@@ -217,7 +216,7 @@ class XAxisAssembly extends React.Component {
           </Col>
         </Row>
         <hr />
-        <Row class={s.root}>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>All Done!</h3>
             <p>Congratulations! Now on to the next step.</p>

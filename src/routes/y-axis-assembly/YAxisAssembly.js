@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './YAxisAssembly.css';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-import Link from '../../components/Link';
 
 class YAxisAssembly extends React.Component {
   render() {
