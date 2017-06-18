@@ -61,7 +61,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://i.imgur.com/kNhiBiU.jpg' />
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-1.jpg' />
           </Col>
         </Row>
         <hr />
@@ -71,11 +71,21 @@ class XAxisAssembly extends React.Component {
             <h4>Hardware</h4>
             <ul>
               <li>Linear Bearings x3</li>
-              <li>Chrome rods x2</li>
+              <li>Chrome rods 35 cm x2</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-2-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Carefully slide linear bearings on rods.</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-2-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -88,9 +98,19 @@ class XAxisAssembly extends React.Component {
               <li>X-end-motor</li>
               <li>X-end-idler</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-3-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert linear bearing into the printed parts.</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-3-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -103,10 +123,20 @@ class XAxisAssembly extends React.Component {
               <li>M3x10 screw x2</li>
               <li>X-end-idler</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-4-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert M3 square nuts and put in place M3x10 screws.</li>
               <li>Avoid overtightening of the screws.</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-4-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -118,10 +148,20 @@ class XAxisAssembly extends React.Component {
               <li>Assembled y-axis rods</li>
               <li>Prepared printed parts</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-5-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert the rods with bearings fully into the printed parts.</li>
               <li>Ensure the correct orientation of the parts and rods (rod with 2 bearings must be on the side with the nut trap).</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-5-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -134,11 +174,21 @@ class XAxisAssembly extends React.Component {
               <li>bearing w/ housing x1</li>
               <li>M3 locknut x1</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-6-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert the bearing into the X-end idler.</li>
               <li>Secure it in position using M3x18 screw.</li>
               <li>Tighten it with M3 nylock nut, but the idler (wheel) must rotate freely.</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-6-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -150,9 +200,19 @@ class XAxisAssembly extends React.Component {
               <li>X Carriage</li>
               <li>Zip tie x6</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-7-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Insert zipties into the X-carriage.</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-7-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -164,12 +224,23 @@ class XAxisAssembly extends React.Component {
               <li>Assembled X axis base</li>
               <li>Prepared X Carriage</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Place the X-carriage on the X-axis base.</li>
               <li>Ensure the correct orientation of X-carriage.</li>
               <li>Use pliers to tighten the zipties.</li>
               <li>Use pliers to cut off any excess ziptie.</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-b.jpg' />
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-d.jpg' />
           </Col>
         </Row>
         <hr />
@@ -181,10 +252,20 @@ class XAxisAssembly extends React.Component {
               <li>M3x18 screw x3</li>
               <li>Stepper motor</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-9-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Tighten the motor to the X-end-motor part.</li>
               <li>Ensure the correct position of cables (Cables should face down).</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-9-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -195,10 +276,20 @@ class XAxisAssembly extends React.Component {
             <ul>
               <li>GT2 Pulley</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-10-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Place GT2 pulley on the X motor shaft.</li>
               <li>Tighten up the pulley.</li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-10-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -210,9 +301,19 @@ class XAxisAssembly extends React.Component {
               <li>X Endstop</li>
               <li>M2x12 screw x2</li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-11-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
             <ol>
               <li>Place the endstop on the printed part and insert </li>
             </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-11-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -222,7 +323,7 @@ class XAxisAssembly extends React.Component {
             <p>Congratulations! Now on to the next step.</p>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://i.imgur.com/jdpvRQy.jpg' />
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/done.jpg' />
           </Col>
         </Row>
       </Grid>
