@@ -30,7 +30,7 @@ class Docs extends React.Component {
             <p>Written w/ <a href='https://expressjs.com/'>ExpressJS</a>.</p>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://i.imgur.com/Fh8g5xM.jpg' />
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg' />
           </Col>
         </Row>
       </Grid>
