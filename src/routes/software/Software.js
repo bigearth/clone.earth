@@ -13,7 +13,7 @@ class Software extends React.Component {
           <Col xs={12} md={6}>
             <h2>Software</h2>
             <h3>High Level Overview</h3>
-            <img src='https://i.imgur.com/77JejAe.gif' />
+            <img src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/software/software.gif' />
           </Col>
           <Col xs={12} md={6}>
             <h3>User</h3>

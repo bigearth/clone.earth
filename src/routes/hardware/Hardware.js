@@ -43,7 +43,7 @@ class Hardware extends React.Component {
             </div>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://i.imgur.com/sasJiyT.jpg' />
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/hardware/hardware.jpg' />
           </Col>
         </Row>
       </Grid>

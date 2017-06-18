@@ -13,7 +13,7 @@ class Home extends React.Component {
           <h1>Clone</h1>
           <h2>Make your world</h2>
         </div>
-        <Image src="https://i.imgur.com/BOmItZ3.jpg" thumbnail />
+        <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg" thumbnail />
       </div>
     );
   }
