@@ -16,40 +16,55 @@ class ExtruderAssembly extends React.Component {
             <h3>Step 1 Gather materials</h3>
             <h4>Tools</h4>
             <ul>
-              <li>2.5 and 1.5 mm Hex key</li>
+              <li>2.5, 2 and 1.5 mm Hex key</li>
               <li>Needle-nose pliers</li>
             </ul>
             <h4>3D printed parts</h4>
             <ul>
-              <li>Extruder cover</li>
-              <li>Extruder body</li>
-              <li>Extruder idler</li>
-              <li>Fan nozzle</li>
+              <li>Cover x1</li>
+              <li>Body x1</li>
+              <li>Idler x1</li>
+              <li>Fan nozzle x1</li>
+              <li>Shaft x1</li>
             </ul>
             <h4>Hardware</h4>
             <ul>
-              <li>M3 nut x4</li>
-              <li>M3 square nut x4</li>
-              <li>Extruder x1</li>
-              <li>M3x18 x6</li>
-              <li>M3x25 x1</li>
-              <li>Stepper motor x1</li>
-              <li>Pulley x1</li>
-              <li>M3x20 x5</li>
-              <li>Proximity probe x1</li>
-              <li>Fan x1</li>
-              <li>M3x40 x3</li>
-              <li>shaft x1</li>
-              <li>M5 washer x2</li>
-              <li>bearing x1</li>
-              <li>M3 washer x4</li>
-              <li>Extruder spring x2</li>
-              <li>Print fan x1</li>
-              <li>Proximity probe x1</li>
-              <li>M3x30 screw x1</li>
-              <li>Zip Tie x4</li>
-              <li>Wire wrap x1</li>
-              <li></li>
+              <li>
+                Nuts &amp; Bolts
+                <ul>
+                  <li>M3x18 screw x6</li>
+                  <li>M3x20 screw x3</li>
+                  <li>M3x25 screw x1</li>
+                  <li>M3x30 screw x3</li>
+                  <li>M3x40 screw x3</li>
+                  <li>M3 washer x4</li>
+                  <li>M3 nut x4</li>
+                  <li>M3 square nut x4</li>
+                  <li>Pulley x1</li>
+                  <li>bearing x1</li>
+                  <li>Extruder spring x2</li>
+                  <li>Wire wrap x1</li>
+                </ul>
+              </li>
+              <li>
+                Electronics
+                <ul>
+                  <li>Extruder x1</li>
+                  <li>Stepper motor x1</li>
+                  <li>Proximity probe x1</li>
+                  <li>Fan x1</li>
+                  <li>Print fan x1</li>
+                </ul>
+              </li>
+              <li>
+                Miscellaneous
+                <ul>
+                  <li>Zip tie 20 cm x1</li>
+                  <li>Zip tie 10 cm x3</li>
+                  <li>Stepper Motor cable x1</li>
+                  <li>Wire Wrap x1</li>
+                </ul>
+              </li>
             </ul>
           </Col>
           <Col xs={12} md={6}>
@@ -183,7 +198,7 @@ class ExtruderAssembly extends React.Component {
             <h3>Step 7 Mount the motor and idler</h3>
             <h4>Hardware</h4>
             <ul>
-              <li>M3x20 screw x2</li>
+              <li>M3x30 screw x2</li>
               <li>Prepared motor x1</li>
               <li>Idler print x1</li>
             </ul>
@@ -258,7 +273,6 @@ class ExtruderAssembly extends React.Component {
             <h4>Hardware</h4>
             <ul>
               <li>shaft x1</li>
-              <li>M5 washer x2</li>
               <li>bearing x1</li>
             </ul>
           </Col>
@@ -586,7 +600,7 @@ class ExtruderAssembly extends React.Component {
         <Row className={s.root}>
           <Col xs={12} md={6}>
             <ol>
-              <li>Insert ziptie (longer one in package) in the right side of the X-carriage so that cables from the extruder motor and the fan are below ziptie and held in place.</li>
+              <li>Insert 20 cm ziptie in the right side of the X-carriage so that cables from the extruder motor and the fan are below ziptie and held in place.</li>
               <li>Double check the orientation of the ziptie.</li>
             </ol>
           </Col>

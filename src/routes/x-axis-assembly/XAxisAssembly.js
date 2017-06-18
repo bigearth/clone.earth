@@ -17,7 +17,8 @@ class XAxisAssembly extends React.Component {
             <h4>Tools</h4>
             <ul>
               <li>Needle nose pliers x1</li>
-              <li>2.5 Hex key</li>
+              <li>2 mm Hex key</li>
+              <li>1.5 mm Hex key</li>
             </ul>
             <h4>3D printed parts</h4>
             <ul>
@@ -37,12 +38,12 @@ class XAxisAssembly extends React.Component {
                 Nuts &amp; Bolts
                 <ul>
                   <li>M3x10 screw x2</li>
-                  <li>M3 square nut x2</li>
                   <li>M3x18 screw x4</li>
+                  <li>M3 square nut x2</li>
                   <li>M3 locknut x1</li>
                   <li>GT2 pulley x1</li>
-                  <li>Linear bearings x7</li>
                   <li>Idler Bearing x1</li>
+                  <li>Linear bearings x7</li>
                 </ul>
               </li>
               <li>
@@ -56,7 +57,6 @@ class XAxisAssembly extends React.Component {
                 Miscellaneous
                 <ul>
                   <li>Zip tie x6</li>
-                  <li>GT2 belt 68cm x1</li>
                 </ul>
               </li>
             </ul>

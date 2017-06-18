@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './ZAxisAssembly.css';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
 import Link from '../../components/Link';
 
 class ZAxisAssembly extends React.Component {
@@ -16,10 +16,9 @@ class ZAxisAssembly extends React.Component {
             <h3>Step 1 Gather materials</h3>
             <h4>Tools</h4>
             <ul>
-              <li>Adjustable wrench</li>
-              <li>3.6mm flathead screwdriver</li>
-              <li>Needle-nose pliers</li>
-              <li>1.5mm Hex key</li>
+              <li>Adjustable wrench x2</li>
+              <li>Needle-nose pliers x1</li>
+              <li>2 mm Hex key</li>
             </ul>
             <h4>3D printed parts</h4>
             <ul>
@@ -41,9 +40,11 @@ class ZAxisAssembly extends React.Component {
                 Nuts &amp; Bolts
                 <ul>
                   <li>M3x10 screw x8</li>
-                  <li>M3 washer x8</li>
+                  <li>M3x12 screw x4</li>
                   <li>M3x18 screw x10</li>
+                  <li>M3 washer x8</li>
                   <li>M3 locknut x10</li>
+                  <li>M3 nut x4</li>
                   <li>Lead screw bushing x2</li>
                   <li>5M to 8M flex coupler x2</li>
                 </ul>
@@ -57,7 +58,7 @@ class ZAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/Fh8g5xM.jpg' />
+            <Image src='https://i.imgur.com/Fh8g5xM.jpg' />
           </Col>
         </Row>
         <hr />
@@ -71,7 +72,7 @@ class ZAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/6RwYwlD.jpg' />
+            <Image src='https://i.imgur.com/6RwYwlD.jpg' />
           </Col>
         </Row>
         <hr />
@@ -84,7 +85,7 @@ class ZAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/UJp7kiF.jpg' />
+            <Image src='https://i.imgur.com/UJp7kiF.jpg' />
           </Col>
         </Row>
         <hr />
@@ -99,7 +100,7 @@ class ZAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/BBEQ2L9.jpg' />
+            <Image src='https://i.imgur.com/BBEQ2L9.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -111,7 +112,7 @@ class ZAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/GrNVl4v.jpg' />
+            <Image src='https://i.imgur.com/GrNVl4v.jpg' />
           </Col>
         </Row>
         <hr />
@@ -127,7 +128,7 @@ class ZAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/jHVyOU9.jpg' />
+            <Image src='https://i.imgur.com/jHVyOU9.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -140,7 +141,7 @@ class ZAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/IrU3Rs9.jpg' />
+            <Image src='https://i.imgur.com/IrU3Rs9.jpg' />
           </Col>
         </Row>
         <hr />
@@ -154,7 +155,7 @@ class ZAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/SSyZTMq.jpg' />
+            <Image src='https://i.imgur.com/SSyZTMq.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -169,7 +170,7 @@ class ZAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <img src='https://i.imgur.com/LLkxEh2.jpg' />
+            <Image src='https://i.imgur.com/LLkxEh2.jpg' />
           </Col>
         </Row>
         <hr />

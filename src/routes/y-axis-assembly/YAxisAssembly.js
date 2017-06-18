@@ -65,7 +65,7 @@ class YAxisAssembly extends React.Component {
                 Miscellaneous
                 <ul>
                   <li>Y axis carriage x1</li>
-                  <li>Zip ties x4</li>
+                  <li>Zip tie 10 cm x4</li>
                   <li>GT2 belt 97 cm x1</li>
                 </ul>
               </li>
