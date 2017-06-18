@@ -24,7 +24,6 @@ export default {
     require('./z-axis-assembly').default,
     require('./extruder-assembly').default,
     require('./lcd-assembly').default,
-    require('./psu-assembly').default,
     require('./heatbed-assembly').default,
     require('./electronics-assembly').default,
 

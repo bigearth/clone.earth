@@ -34,9 +34,6 @@ class Hardware extends React.Component {
                   <Link to="/lcd-assembly">LCD assembly</Link>
                 </li>
                 <li>
-                  <Link to="/psu-assembly">PSU assembly</Link>
-                </li>
-                <li>
                   <Link to="/heatbed-assembly">Heatbed assembly</Link>
                 </li>
                 <li>
