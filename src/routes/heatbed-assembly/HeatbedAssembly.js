@@ -27,6 +27,7 @@ class HeatbedAssembly extends React.Component {
                   <li>M3x25 screw x4</li>
                   <li>M3 washer x4</li>
                   <li>M3 lock nut x4</li>
+                  <li>M3 10 mm aluminum spacer x4</li>
                 </ul>
               </li>
               <li>

@@ -22,7 +22,7 @@ class Credits extends React.Component {
         <Row className={s.root}>
           <Col xs={12} md={6}>
             <h3>Toms3D</h3>
-            <p>Toms3D has been an endless source of help and we leveraged his altered MK2 parts in Clone.</p>
+            <p>Toms3D has been an endless source of help and we leveraged his altered MK2 parts on Clone.</p>
             <p><a href='https://toms3d.org'>More info</a></p>
           </Col>
         </Row>

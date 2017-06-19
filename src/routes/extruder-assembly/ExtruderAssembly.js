@@ -42,7 +42,6 @@ class ExtruderAssembly extends React.Component {
                   <li>Pulley x1</li>
                   <li>bearing x1</li>
                   <li>Extruder spring x2</li>
-                  <li>Wire wrap x1</li>
                 </ul>
               </li>
               <li>
