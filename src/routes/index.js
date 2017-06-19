@@ -26,6 +26,7 @@ export default {
     require('./lcd-assembly').default,
     require('./heatbed-assembly').default,
     require('./electronics-assembly').default,
+    require('./credits').default,
 
     // Wildcard routes, e.g. { path: '*', ... } (must go last)
     require('./notFound').default,

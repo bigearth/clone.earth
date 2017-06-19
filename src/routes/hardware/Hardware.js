@@ -39,6 +39,9 @@ class Hardware extends React.Component {
                 <li>
                   <Link to="/electronics-assembly">Electronics assembly</Link>
                 </li>
+                <li>
+                  <Link to="/credits">Credits</Link>
+                </li>
               </ul>
             </div>
           </Col>
