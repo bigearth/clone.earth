@@ -3,8 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './HeatbedAssembly.css';
-import { Jumbotron, Grid, Row, Col, Button } from 'react-bootstrap';
-import Link from '../../components/Link';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
 
 class HeatbedAssembly extends React.Component {
   render() {
@@ -38,6 +37,92 @@ class HeatbedAssembly extends React.Component {
                 </ul>
               </li>
             </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-1.jpg' />
+          </Col>
+        </Row>
+        <hr />
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
+            <h3>Step 2 Preparing screws and spacers</h3>
+            <h4>Hardware</h4>
+            <ul>
+              <li>M3x25 screw x4</li>
+              <li>M3 washer x4</li>
+              <li>M3 10 mm aluminum spacer x4</li>
+            </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-2-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
+            <ol>
+              <li>Place the washer on the screw and feed that through the headbed from the top.</li>
+              <li>Screw the spacer on to the screw on the back side of the headbed.</li>
+            </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-2-b.jpg' />
+          </Col>
+        </Row>
+        <hr />
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
+            <h3>Step 3 Attaching heatbed to carriage</h3>
+            <h4>Hardware</h4>
+            <ul>
+              <li>M3 lock nut x4</li>
+              <li>Assembled heatbed</li>
+            </ul>
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
+            <ol>
+              <li>Sit the headbed on the carriage and insert all 4 screws.</li>
+              <li>Attach w/ lock nuts on the bottom of the carriage.</li>
+            </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-3.jpg' />
+          </Col>
+        </Row>
+        <hr />
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
+            <h3>Step 4 Wire management</h3>
+            <h4>Hardware</h4>
+            <ul>
+              <li>Zip tie 10 cm x2</li>
+              <li>Wire Wrap x1</li>
+            </ul>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-4-a.jpg' />
+          </Col>
+        </Row>
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
+            <ol>
+              <li>Place the washer on the screw and feed that through the headbed from the top.</li>
+              <li>Screw the spacer on to the screw on the back side of the headbed.</li>
+            </ol>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-4-b.jpg' />
+          </Col>
+        </Row>
+        <hr />
+        <Row className={s.root}>
+          <Col xs={12} md={6}>
+            <h3>All Done!</h3>
+            <p>Congratulations! Now on to the next step.</p>
+          </Col>
+          <Col xs={12} md={6}>
+            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-5.jpg' />
           </Col>
         </Row>
       </Grid>
