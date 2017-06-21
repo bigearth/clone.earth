@@ -75,7 +75,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-2-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-2-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -85,7 +85,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-2-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-2-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -100,7 +100,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-3-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-3-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -110,7 +110,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-3-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-3-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -125,7 +125,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-4-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-4-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -136,7 +136,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-4-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-4-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -150,7 +150,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-5-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-5-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -161,7 +161,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-5-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-5-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -176,7 +176,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-6-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-6-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -188,7 +188,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-6-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-6-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -202,7 +202,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-7-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-7-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -212,7 +212,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-7-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-7-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -226,7 +226,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -239,8 +239,8 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-b.jpg' />
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-d.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-8-d.jpg' />
           </Col>
         </Row>
         <hr />
@@ -254,7 +254,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-9-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-9-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -265,7 +265,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-9-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-9-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -278,7 +278,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-10-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-10-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -289,7 +289,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-10-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-10-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -303,7 +303,7 @@ class XAxisAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-11-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-11-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -313,7 +313,7 @@ class XAxisAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-11-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/x-axis/step-11-b.jpg' />
           </Col>
         </Row>
         <hr />

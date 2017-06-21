@@ -66,7 +66,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-1.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-1.jpg' />
           </Col>
         </Row>
         <hr />
@@ -91,7 +91,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-2-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-2-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -105,7 +105,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-3-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-3-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -116,7 +116,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-3-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-3-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -129,7 +129,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-4-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-4-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -139,7 +139,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-4-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-4-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -153,7 +153,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-5-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-5-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -163,7 +163,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-5-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-5-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -177,7 +177,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-6-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-6-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -187,7 +187,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-6-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-6-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -202,7 +202,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-7-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-7-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -213,7 +213,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-7-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-7-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -226,7 +226,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-8-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-8-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -238,7 +238,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-8-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-8-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -251,7 +251,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-9-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-9-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -261,7 +261,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-9-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-9-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -275,7 +275,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-10-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-10-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -286,8 +286,8 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-10-b.jpg' />
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-10-c.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-10-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-10-c.jpg' />
           </Col>
         </Row>
         <hr />
@@ -302,7 +302,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-11.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-11.jpg' />
           </Col>
         </Row>
         <hr />
@@ -322,7 +322,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-12.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-12.jpg' />
           </Col>
         </Row>
         <hr />
@@ -337,7 +337,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-13-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-13-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -347,7 +347,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-13-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-13-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -362,7 +362,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-14-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-14-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -372,7 +372,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-14-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-14-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -392,7 +392,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-15.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-15.jpg' />
           </Col>
         </Row>
         <hr />
@@ -412,7 +412,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-16.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-16.jpg' />
           </Col>
         </Row>
         <hr />
@@ -480,7 +480,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-19.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-19.jpg' />
           </Col>
         </Row>
         <hr />
@@ -493,7 +493,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-20.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-20.jpg' />
           </Col>
         </Row>
         <hr />
@@ -517,7 +517,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-21-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-21-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -537,7 +537,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-22.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-22.jpg' />
           </Col>
         </Row>
         <hr />
@@ -550,7 +550,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-23-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-23-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -561,7 +561,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-23-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-23-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -574,7 +574,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-24-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-24-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -584,7 +584,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-24-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-24-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -598,7 +598,7 @@ class ExtruderAssembly extends React.Component {
             </ul>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-25-a.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-25-a.jpg' />
           </Col>
         </Row>
         <Row className={s.root}>
@@ -610,7 +610,7 @@ class ExtruderAssembly extends React.Component {
             </ol>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-25-b.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/step-25-b.jpg' />
           </Col>
         </Row>
         <hr />
@@ -620,7 +620,7 @@ class ExtruderAssembly extends React.Component {
             <p>Congratulations! Now on to the next step.</p>
           </Col>
           <Col xs={12} md={6}>
-            <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/done.jpg' />
+            <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/extruder/done.jpg' />
           </Col>
         </Row>
       </Grid>
