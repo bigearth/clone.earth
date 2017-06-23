@@ -542,7 +542,7 @@ module.exports = {
   // Web analytics
   analytics: {
     // https://analytics.google.com/
-    googleTrackingId: process.env.GOOGLE_TRACKING_ID || 'UA-101509256-1',
+    googleTrackingId: process.env.GOOGLE_TRACKING_ID,
 
   // Authentication
   auth: {
