@@ -12,5 +12,3 @@ Based on [react-starter-kit](https://github.com/kriasoft/react-starter-kit).
 4. `npm run start` (automatically opens http://localhost:3001/ in your default browser)
 
 All relevant files are in the src/ directory. Make the codez!
-
-test
