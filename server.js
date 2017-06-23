@@ -542,7 +542,7 @@ module.exports = {
   // Web analytics
   analytics: {
     // https://analytics.google.com/
-    googleTrackingId: process.env.GOOGLE_TRACKING_ID },
+    googleTrackingId: process.env.GOOGLE_TRACKING_ID || 'UA-101509256-1',
 
   // Authentication
   auth: {
@@ -584,7 +584,7 @@ module.exports = {
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -601,7 +601,7 @@ module.exports = {
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 11 */
@@ -4130,7 +4130,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4147,7 +4147,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 67 */
@@ -4165,7 +4165,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4182,7 +4182,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 68 */
@@ -4200,7 +4200,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4217,7 +4217,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 69 */
@@ -4235,7 +4235,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4252,7 +4252,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 70 */
@@ -4270,7 +4270,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4287,7 +4287,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 71 */
@@ -4305,7 +4305,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4322,7 +4322,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 72 */
@@ -4340,7 +4340,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4357,7 +4357,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 73 */
@@ -4375,7 +4375,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4392,7 +4392,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 74 */
@@ -4410,7 +4410,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4427,7 +4427,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 75 */
@@ -4445,7 +4445,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4462,7 +4462,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 76 */
@@ -4480,7 +4480,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4497,7 +4497,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 77 */
@@ -4515,7 +4515,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4532,7 +4532,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 78 */
@@ -4550,7 +4550,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4567,7 +4567,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 79 */
@@ -4585,7 +4585,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4602,7 +4602,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 80 */
@@ -4620,7 +4620,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4637,7 +4637,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 81 */
@@ -4655,7 +4655,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
     module.exports._getContent = function() { return content; };
     module.exports._getCss = function() { return content.toString(); };
     module.exports._insertCss = function(options) { return insertCss(content, options) };
-    
+
     // Hot Module Replacement
     // https://webpack.github.io/docs/hot-module-replacement
     // Only activated in browser context
@@ -4672,7 +4672,7 @@ module.exports = __webpack_require__.p + "src/components/Header/logo-small@2x.pn
       });
       module.hot.dispose(function() { removeCss(); });
     }
-  
+
 
 /***/ }),
 /* 82 */
