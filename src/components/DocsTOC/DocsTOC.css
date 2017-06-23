@@ -1,0 +1,21 @@
+@import '../app.css';
+
+.root {
+    position: fixed;
+    width: 180px;
+    margin-top: 20px;
+
+    ul {
+        li {
+            &:.active {
+                a {
+                    color: #FFF;
+                }
+            }
+
+            a {
+                display: block;
+            }
+        }
+    }
+}

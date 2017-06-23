@@ -1,0 +1,12 @@
+@import './variables.css';
+
+.container,
+.container-fluid {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
