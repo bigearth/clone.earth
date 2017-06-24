@@ -1,0 +1,12 @@
+@import '../app.css';
+
+.root {
+    position: inherit;
+    margin-top: 20px;
+}
+
+.list-group {
+    position: fixed;
+    margin-top: 20px;
+    width: 160px;
+}
