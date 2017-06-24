@@ -1,0 +1,6 @@
+{
+  "name": "DocsTOC",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DocsTOC.js"
+}

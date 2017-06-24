@@ -22,6 +22,12 @@ a {
   color: #0074c2;
 }
 
+.container,
+.container-fluid {
+  max-width: 1170px;
+}
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
