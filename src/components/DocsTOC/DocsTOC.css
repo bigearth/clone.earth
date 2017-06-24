@@ -1,21 +1,12 @@
 @import '../app.css';
 
 .root {
-    position: fixed;
-    width: 180px;
+    position: inherit;
     margin-top: 20px;
+}
 
-    ul {
-        li {
-            &:.active {
-                a {
-                    color: #FFF;
-                }
-            }
-
-            a {
-                display: block;
-            }
-        }
-    }
+.list-group {
+    position: fixed;
+    margin-top: 20px;
+    width: 160px;
 }

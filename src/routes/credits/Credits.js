@@ -12,10 +12,10 @@ class Credits extends React.Component {
     return (
       <Grid bsClass={s['container-fluid']}>
         <Row>
-          <Col xs={2}>
+          <Col xs={12} sm={12} md={2} lg={2} >
             <DocsTOC selected="/credits" />
           </Col>
-          <Col xs={10}>
+          <Col xs={12} sm={12} md={10} lg={10}>
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <h2>Credits</h2>

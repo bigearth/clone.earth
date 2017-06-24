@@ -70,18 +70,40 @@ class DocsTOC extends React.Component {
     }
   }
 
+  goToLinkSelect(ev) {
+    var link = ev.currentTarget[ev.currentTarget.selectedIndex].value;
+    console.log(typeof(ev.currentTarget[ev.currentTarget.selectedIndex].dataset.external));
+    if(ev.currentTarget[ev.currentTarget.selectedIndex].dataset.external === 'true') {
+      window.open(link)
+    } else {
+      window.location.href = link;
+    }
+  }
+
   render() {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <div className="list-group">
-          {DocsTOC.toc.hardware.map(function(toc, i) {
-            var selectedClass = (this.props.selected === toc.href) ? 'list-group-item active' : 'list-group-item';
-            var linkage = (toc.external) ? <span className="glyphicon glyphicon-link" aria-hidden="true"></span> : '';
-            return (
-              <button type="button" className={selectedClass} key={i} onClick={() => this.goToLink(toc)}>{toc.text} {linkage}</button>
-            );
-          }, this)}
+          <div className="hidden-xs hidden-sm">
+            <div className={s['list-group']}>
+              {DocsTOC.toc.hardware.map(function(toc, i) {
+                var selectedClass = (this.props.selected === toc.href) ? 'list-group-item active' : 'list-group-item';
+                var linkage = (toc.external) ? <span className="glyphicon glyphicon-link" aria-hidden="true"></span> : '';
+                return (
+                  <button type="button" className={selectedClass} key={i} onClick={() => this.goToLink(toc)}>{toc.text} {linkage}</button>
+                );
+              }, this)}
+            </div>
+          </div>
+          <div className="hidden-md hidden-lg form-inline">
+            <label className="inline">Docs:</label>
+            <select className="form-control" onChange={(ev) => this.goToLinkSelect(ev)} defaultValue={this.props.selected}>
+              {DocsTOC.toc.hardware.map(function(toc, i) {
+                return (
+                  <option key={i} value={toc.href} data-external={toc.external}>{toc.text}</option>
+                );
+              }, this)}
+            </select>
           </div>
         </div>
       </div>
