@@ -165,7 +165,7 @@ class ExtruderAssembly extends React.Component {
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <ol>
-                  <li>Using the 2.5mm Hex key tighten both screws to mount the extruder cover on the extruder body.</li>
+                  <li>Using the 2 mm Hex key tighten both screws to mount the extruder cover on the extruder body.</li>
                 </ol>
               </Col>
               <Col xs={12} md={6}>
@@ -337,7 +337,7 @@ class ExtruderAssembly extends React.Component {
                 <h3>Step 13 Preparing the print fan</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>2.5 mm Hex key</li>
+                  <li>2 mm Hex key</li>
                   <li>Print fan x1</li>
                   <li>M3x20 screw x2</li>
                 </ul>
@@ -349,7 +349,7 @@ class ExtruderAssembly extends React.Component {
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <ol>
-                  <li>Screw the fan on to the extruder using the 2.5 mm Hex key</li>
+                  <li>Screw the fan on to the extruder using the 2 mm Hex key</li>
                 </ol>
               </Col>
               <Col xs={12} md={6}>
@@ -362,7 +362,7 @@ class ExtruderAssembly extends React.Component {
                 <h3>Step 14 Prepare the fan nozzle</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>2.5 mm Hex key</li>
+                  <li>2 mm Hex key</li>
                   <li>Fan nozzle print x1</li>
                   <li>M3x20 screw x1</li>
                 </ul>
@@ -374,7 +374,7 @@ class ExtruderAssembly extends React.Component {
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <ol>
-                  <li>Tighten the fan nozzle using the 2.5 mm Hex key.</li>
+                  <li>Tighten the fan nozzle using the 2 mm Hex key.</li>
                 </ol>
               </Col>
               <Col xs={12} md={6}>
