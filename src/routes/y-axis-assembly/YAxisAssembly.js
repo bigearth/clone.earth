@@ -46,7 +46,8 @@ class YAxisAssembly extends React.Component {
                     Nuts &amp; Bolts
                     <ul>
                       <li>M3x10 screw x2</li>
-                      <li>M3x18 screw x4</li>
+                      <li>M3x12 screw x2</li>
+                      <li>M3x16 screw x2</li>
                       <li>M3x25 screw x1</li>
                       <li>M10 nuts x14</li>
                       <li>M10 washers x12</li>
@@ -320,7 +321,7 @@ class YAxisAssembly extends React.Component {
                 <h3>Step 10 Y Endstop</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>M3x18 screw x2</li>
+                  <li>M3x16 screw x2</li>
                   <li>Endstop x1</li>
                 </ul>
               </Col>
@@ -344,7 +345,7 @@ class YAxisAssembly extends React.Component {
                 <h3>Step 11 Y belt holder</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>M3x18 screw x2</li>
+                  <li>M3x12 screw x2</li>
                 </ul>
               </Col>
               <Col xs={12} md={6}>

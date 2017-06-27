@@ -45,8 +45,7 @@ class ZAxisAssembly extends React.Component {
                     Nuts &amp; Bolts
                     <ul>
                       <li>M3x10 screw x8</li>
-                      <li>M3x12 screw x4</li>
-                      <li>M3x18 screw x10</li>
+                      <li>M3x12 screw x14</li>
                       <li>M3 washer x8</li>
                       <li>M3 locknut x10</li>
                       <li>M3 nut x4</li>
@@ -72,7 +71,7 @@ class ZAxisAssembly extends React.Component {
                 <h3>Step 2 Attach Z axis tops and bottoms</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>M3x18 screw x10</li>
+                  <li>M3x12 screw x10</li>
                   <li>M3 locknut x10</li>
                 </ul>
               </Col>
@@ -128,7 +127,8 @@ class ZAxisAssembly extends React.Component {
                   <li>8M Lead screw 30 cm x2</li>
                   <li>Lead screw bushing x2</li>
                   <li>5M to 8M flex coupler x2</li>
-                  <li>M3x10 screw x2</li>
+                  <li>M3x12 screw x4</li>
+                  <li>M3 nut x4</li>
                 </ul>
               </Col>
               <Col xs={12} md={6}>
@@ -139,7 +139,7 @@ class ZAxisAssembly extends React.Component {
               <Col xs={12} md={6}>
                 <ol>
                   <li>Screw the bushings on the lead screws</li>
-                  <li>Place the screws in the bushings</li>
+                  <li>Place the screws in the bushings and attach the nuts</li>
                   <li>Place the lead screw in the 8M side of the flex coupler and tighten.</li>
                   <li>Place the motor shaft in the 5M side of the flex coupler and tighten.</li>
                 </ol>
