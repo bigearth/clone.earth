@@ -54,7 +54,7 @@ class HeatbedAssembly extends React.Component {
                 <h3>Step 2 Preparing screws and spacers</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>M3x25 screw x4</li>
+                  <li>M3x25 flat-top screw x4</li>
                   <li>M3 washer x4</li>
                   <li>M3 10 mm aluminum spacer x4</li>
                 </ul>
