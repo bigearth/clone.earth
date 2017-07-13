@@ -44,7 +44,8 @@ class ExtruderAssembly extends React.Component {
                       <li>M3x40 screw x3</li>
                       <li>M3 washer x4</li>
                       <li>M3 nut x4</li>
-                      <li>M3 square nut x4</li>
+                      <li>M3 square nut x2</li>
+                      <li>M3 thin square nut x2</li>
                       <li>Pulley x1</li>
                       <li>bearing x1</li>
                       <li>Extruder spring x2</li>
@@ -253,7 +254,7 @@ class ExtruderAssembly extends React.Component {
                 <h3>Step 9 Prepare the extruder idler</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>M3 square nut x2</li>
+                  <li>M3 thin square nut x2</li>
                 </ul>
               </Col>
               <Col xs={12} md={6}>

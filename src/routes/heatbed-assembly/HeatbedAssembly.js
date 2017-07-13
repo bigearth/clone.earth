@@ -29,7 +29,7 @@ class HeatbedAssembly extends React.Component {
                   <li>
                     Nuts &amp; Bolts
                     <ul>
-                      <li>M3x25 screw x4</li>
+                      <li>M3x25 flat-top screw x4</li>
                       <li>M3 washer x4</li>
                       <li>M3 lock nut x4</li>
                       <li>M3 10 mm aluminum spacer x4</li>
@@ -134,7 +134,7 @@ class HeatbedAssembly extends React.Component {
 
           </Col>
         </Row>
-        
+
       </Grid>
     );
   }

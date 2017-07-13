@@ -62,6 +62,7 @@ class XAxisAssembly extends React.Component {
                     Miscellaneous
                     <ul>
                       <li>Zip tie 10 cm x6</li>
+                      <li>GT2 belt 68 cm x1</li>
                     </ul>
                   </li>
                 </ul>
