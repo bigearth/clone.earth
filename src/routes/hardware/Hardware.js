@@ -15,9 +15,9 @@ class Hardware extends React.Component {
           <Col xs={12} sm={12} md={2} lg={2} >
             <DocsTOC selected="/hardware" />
           </Col>
-          <Col xs={10}>
+          <Col xs={12} sm={12} md={10} lg={10}>
             <Row>
-              <Col xs={12} sm={12} md={10} lg={10}>
+              <Col xs={12} md={6}>
                 <div>
                   <h2>Hardware Assembly</h2>
                   <ul>
@@ -52,7 +52,9 @@ class Hardware extends React.Component {
                 </div>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/hardware/hardware.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/hardware/hardware.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/hardware/hardware.jpg' />
+                </a>
               </Col>
             </Row>
           </Col>

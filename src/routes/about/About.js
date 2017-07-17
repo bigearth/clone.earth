@@ -22,7 +22,9 @@ class About extends React.Component {
             <a href='https://www.twitter.com/clone_earth/'>@Clone_Earth</a>
           </Col>
           <Col xs={12} md={6}>
-            <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg" thumbnail />
+            <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg'>
+              <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg" thumbnail />
+            </a>
           </Col>
         </Row>
       </Grid>
