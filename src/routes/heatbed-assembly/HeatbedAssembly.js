@@ -45,7 +45,9 @@ class HeatbedAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-1.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-1.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-1.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -60,7 +62,9 @@ class HeatbedAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-2-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-2-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-2-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -71,7 +75,9 @@ class HeatbedAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-2-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-2-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-2-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -93,7 +99,9 @@ class HeatbedAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-3.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-3.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-3.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -107,7 +115,9 @@ class HeatbedAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-4-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-4-a.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-4-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -118,7 +128,9 @@ class HeatbedAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-4-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-4-b.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-4-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -128,7 +140,9 @@ class HeatbedAssembly extends React.Component {
                 <p>Congratulations! Now on to the next step.</p>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-5.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-5.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/heatbed/step-5.jpg' />
+                </a>
               </Col>
             </Row>
 

@@ -46,7 +46,9 @@ class LCDAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-1.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-1.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-1.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -61,7 +63,9 @@ class LCDAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-2-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-2-a.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-2-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -73,7 +77,9 @@ class LCDAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-2-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-2-b.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-2-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -86,7 +92,9 @@ class LCDAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-3.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-3.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-3.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -98,7 +106,9 @@ class LCDAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-4.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-4.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-4.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -112,7 +122,9 @@ class LCDAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-5.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-5.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-5.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -124,7 +136,9 @@ class LCDAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-6.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-6.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-6.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -137,7 +151,9 @@ class LCDAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-7-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-7-a.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-7-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -148,7 +164,9 @@ class LCDAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-7-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-7-b.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-7-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
@@ -158,7 +176,9 @@ class LCDAssembly extends React.Component {
                 <p>Congratulations! Now on to the next step.</p>
               </Col>
               <Col xs={12} md={6}>
-                <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-8.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-8.jpg'>
+                  <Image className={s.rotate} src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/lcd/step-8.jpg' />
+                </a>
               </Col>
             </Row>
           </Col>
