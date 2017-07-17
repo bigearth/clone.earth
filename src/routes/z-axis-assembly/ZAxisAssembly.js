@@ -18,7 +18,7 @@ class ZAxisAssembly extends React.Component {
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <h2>Z Axis Assembly</h2>
-                <h3>Step 1 Gather materials</h3>
+                <h3 id='step1'>Step 1 Gather materials</h3>
                 <h4>Tools</h4>
                 <ul>
                   <li>Adjustable wrench x2</li>
@@ -62,13 +62,15 @@ class ZAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 2 Attach Z axis tops and bottoms</h3>
+                <h3 id='step2'>Step 2 Attach Z axis tops and bottoms</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3x12 screw x10</li>
@@ -76,25 +78,29 @@ class ZAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-2-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-2-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-2-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <ol>
                   <li>Place parts on the frame</li>
-                  <li>Use 2.5mm Hex key to tighten the parts to the frame.</li>
+                  <li>Use 2.5 mm Hex key to tighten the parts to the frame.</li>
                   <li>Tighten them gently.</li>
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-2-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-2-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-2-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 3 Attach the Z axis motors</h3>
+                <h3 id='step3'>Step 3 Attach the Z axis motors</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Stepper motor x2</li>
@@ -103,7 +109,9 @@ class ZAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-3-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-3-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-3-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -115,13 +123,15 @@ class ZAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-3-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-3-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-3-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 4 Attach the Lead Screws</h3>
+                <h3 id='step4'>Step 4 Attach the Lead Screws</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>8M Lead screw 30 cm x2</li>
@@ -132,7 +142,9 @@ class ZAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-4-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-4-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-4-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -146,12 +158,14 @@ class ZAxisAssembly extends React.Component {
               </Col>
               <Col xs={12} md={6}>
                 <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-4-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-3-a.jpg'>
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 5 Attach the X Axis</h3>
+                <h3 id='step5'>Step 5 Attach the X Axis</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Assembled X Axis</li>
@@ -159,7 +173,9 @@ class ZAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-5-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-5-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-5-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -174,13 +190,15 @@ class ZAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-5-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-5-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-5-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>All Done!</h3>
+                <h3 id='allDone'>All Done!</h3>
                 <ul>
                   <li>Congratulations! Now on to the next step.</li>
                 </ul>
