@@ -43,7 +43,8 @@ class XAxisAssembly extends React.Component {
                     Nuts &amp; Bolts
                     <ul>
                       <li>M3x10 screw x2</li>
-                      <li>M3x18 screw x6</li>
+                      <li>M3x18 screw x4</li>
+                      <li>M3x16 screw x2</li>
                       <li>M3 square nut x2</li>
                       <li>M3 locknut x1</li>
                       <li>GT2 pulley x1</li>
@@ -306,7 +307,7 @@ class XAxisAssembly extends React.Component {
                 <h4>Hardware</h4>
                 <ul>
                   <li>X Endstop</li>
-                  <li>M3x18 screw x2</li>
+                  <li>M3x16 screw x2</li>
                 </ul>
               </Col>
               <Col xs={12} md={6}>

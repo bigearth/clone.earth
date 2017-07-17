@@ -37,9 +37,9 @@ class YAxisAssembly extends React.Component {
                   <li>
                     Rods
                     <ul>
-                      <li>M10 threaded rod 38 cm x2</li>
-                      <li>M8 Chrome rod 37 cm x2</li>
-                      <li>M8 threaded rod 21 cm x4</li>
+                      <li>M10 threaded rod 35 cm x2</li>
+                      <li>M8 Chrome rod 33 cm x2</li>
+                      <li>M8 threaded rod 20 cm x4</li>
                     </ul>
                   </li>
                   <li>
@@ -108,7 +108,7 @@ class YAxisAssembly extends React.Component {
                 <h3>Step 2 Assemble the Y-axis rods</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>M10 threaded rod 38 cm x2</li>
+                  <li>M10 threaded rod 35 cm x2</li>
                   <li>M10 washers x12</li>
                   <li>M10 nuts x14</li>
                 </ul>
@@ -135,7 +135,7 @@ class YAxisAssembly extends React.Component {
                 <h3>Step 3 Assemble the Y-axis stage rear</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>M8 threaded rod 21 cm x2</li>
+                  <li>M8 threaded rod 20 cm x2</li>
                   <li>M8 washers x8</li>
                   <li>M8 nuts x4</li>
                 </ul>
@@ -369,7 +369,7 @@ class YAxisAssembly extends React.Component {
                 <h3>Step 12 Y carriage rods</h3>
                 <h4>Hardware</h4>
                 <ul>
-                  <li>Chrome rod 37 cm x2</li>
+                  <li>Chrome rod 33 cm x2</li>
                 </ul>
               </Col>
               <Col xs={12} md={6}>
