@@ -17,7 +17,6 @@ class Navigation extends React.Component {
         </Navbar.Header>
         <Nav>
           <NavDropdown eventKey={3} title="Docs" id="docs-dropdown">
-            <MenuItem eventKey={3.1} href="/software">Software</MenuItem>
             <MenuItem eventKey={3.1} href="/hardware">Hardware</MenuItem>
             <MenuItem eventKey={3.1} href="/docs">Contribute</MenuItem>
           </NavDropdown>
