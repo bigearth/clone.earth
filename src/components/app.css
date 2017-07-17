@@ -12,3 +12,11 @@
 .rotate {
   transform: rotate(90deg);
 }
+
+.redHighlight {
+  color: red;
+}
+
+.blueHighlight {
+  color: blue;
+}

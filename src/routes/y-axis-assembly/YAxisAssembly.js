@@ -18,7 +18,7 @@ class YAxisAssembly extends React.Component {
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <h2>Y Axis Assembly</h2>
-                <h3>Step 1 Gather materials</h3>
+                <h3 id='step1'>Step 1 Gather materials</h3>
                 <h4>Tools</h4>
                 <ul>
                   <li>Adjustable wrench x2</li>
@@ -78,7 +78,11 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <p><Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/hardware.jpg' /></p>
+                <p>
+                  <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/hardware.jpg'>
+                    <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/hardware.jpg' />
+                  </a>
+                </p>
                 <p>Watch how this is assembled.</p>
                 <ul>
                   <li>
@@ -105,7 +109,7 @@ class YAxisAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 2 Assemble the Y-axis rods</h3>
+                <h3 id='step2'>Step 2 Assemble the Y-axis rods</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M10 threaded rod 35 cm x2</li>
@@ -114,25 +118,29 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-2-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-2-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-2-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <ol>
-                  <li>Screw the nuts on and place washers and Y-corners on the threaded rod.</li>
-                  <li>Ensure 100mm distance between a washer after counter-nut and the Y-axis corner.</li>
-                  <li>The 2 nuts have to be tightened against each other (counter-nut).</li>
+                  <li>Place the nuts, washers and y corners on the threaded rod.</li>
+                  <li className={s.blueHighlight}>Tighten the 2 nuts against each other counter-nut.</li>
+                  <li className={s.redHighlight}>Confirm that there is 10 cm distance between the counter nuts and the y axis corner.</li>
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-2-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-2-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-2-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 3 Assemble the Y-axis stage rear</h3>
+                <h3 id='step16'>Step 3 Assemble the Y-axis stage rear</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M8 threaded rod 20 cm x2</li>
@@ -141,7 +149,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-3-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-3-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-3-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -153,13 +163,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-3-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-3-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-3-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 4 Assemble the Y-axis stage front</h3>
+                <h3 id='step4'>Step 4 Assemble the Y-axis stage front</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M8 threaded rod x2</li>
@@ -168,7 +180,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-4-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-4-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-4-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -179,13 +193,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-4-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-4-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-4-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 5 Fully assemble the Y-axis stage</h3>
+                <h3 id='step5'>Step 5 Fully assemble the Y-axis stage</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M8 washers x8</li>
@@ -193,7 +209,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-5-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-5-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-5-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -204,13 +222,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-5-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-5-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-5-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 6 Prepare for the Y-axis stage</h3>
+                <h3 id='step6'>Step 6 Prepare for the Y-axis stage</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Aluminum Frame x1</li>
@@ -218,7 +238,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-6-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-6-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-6-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -233,13 +255,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-6-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-6-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-6-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 7 Assemble the Y carriage</h3>
+                <h3 id='step7'>Step 7 Assemble the Y carriage</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Y Carriage x1</li>
@@ -248,7 +272,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-7-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-7-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-7-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -260,13 +286,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-7-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-7-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-7-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 8 Assemble the Y idler</h3>
+                <h3 id='step8'>Step 8 Assemble the Y idler</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3x25 screw x1</li>
@@ -276,7 +304,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-8-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-8-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-8-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -287,13 +317,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-8-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-8-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-8-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 9 Y axis motor</h3>
+                <h3 id='step9'>Step 9 Y axis motor</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Stepper motor x1</li>
@@ -301,7 +333,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-9-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-9-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-9-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -312,13 +346,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-9-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-9-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-9-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 10 Y Endstop</h3>
+                <h3 id='step10'>Step 10 Y Endstop</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3x16 screw x2</li>
@@ -326,7 +362,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-10-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-10-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-10-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -336,20 +374,24 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-10-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-10-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-10-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 11 Y belt holder</h3>
+                <h3 id='step11'>Step 11 Y belt holder</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3x12 screw x2</li>
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-11-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-11-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-11-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -360,19 +402,23 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-11-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-11-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-11-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 12 Y carriage rods</h3>
+                <h3 id='step12'>Step 12 Y carriage rods</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Chrome rod 33 cm x2</li>
                 </ul>
               </Col>
               <Col xs={12} md={6}>
+                <a href=''>
+                </a>
                 <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-12-a.jpg' />
               </Col>
             </Row>
@@ -383,13 +429,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-12-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-12-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-12-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 13 Assemble the Y axis stage</h3>
+                <h3 id='step13'>Step 13 Assemble the Y axis stage</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Assembled y carriage</li>
@@ -397,7 +445,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-13-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-13-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-13-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -409,13 +459,15 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-13-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-13-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-13-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 14 Add Y motor pulley</h3>
+                <h3 id='step14'>Step 14 Add Y motor pulley</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Assembled y motor</li>
@@ -423,7 +475,9 @@ class YAxisAssembly extends React.Component {
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-14-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-14-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-14-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -433,20 +487,24 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-14-b.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-14-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-14-b.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 15 Add belt to y axis</h3>
+                <h3 id='step15'>Step 15 Add belt to y axis</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Pulley timing belt x1</li>
                 </ul>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-a.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-a.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-a.jpg' />
+                </a>
               </Col>
             </Row>
             <Row className={s.root}>
@@ -458,18 +516,24 @@ class YAxisAssembly extends React.Component {
                 </ol>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-b.jpg' />
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-c.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-b.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-b.jpg' />
+                </a>
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-c.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/step-15-c.jpg' />
+                </a>
               </Col>
             </Row>
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>All Done!</h3>
+                <h3 id='allDone'>All Done!</h3>
                 <p>Congratulations! Now on to the next step.</p>
               </Col>
               <Col xs={12} md={6}>
-                <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/done.jpg' />
+                <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/done.jpg'>
+                  <Image src='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/y-axis/done.jpg' />
+                </a>
               </Col>
             </Row>
           </Col>
