@@ -140,7 +140,7 @@ class YAxisAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3 id='step16'>Step 3 Assemble the Y-axis stage rear</h3>
+                <h3 id='step3'>Step 3 Assemble the Y-axis stage rear</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M8 threaded rod 20 cm x2</li>
