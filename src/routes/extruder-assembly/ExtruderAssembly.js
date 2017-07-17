@@ -18,7 +18,7 @@ class ExtruderAssembly extends React.Component {
             <Row className={s.root}>
               <Col xs={12} md={6}>
                 <h2>Extrude Assembly</h2>
-                <h3>Step 1 Gather materials</h3>
+                <h3 id='step1'>Step 1 Gather materials</h3>
                 <h4>Tools</h4>
                 <ul>
                   <li>2.5, 2 and 1.5 mm Hex key</li>
@@ -81,7 +81,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 2 Prepare left extruder body</h3>
+                <h3 id='step2'>Step 2 Prepare left extruder body</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3 nut x2</li>
@@ -110,7 +110,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 3 Prepare extruder body</h3>
+                <h3 id='step3'>Step 3 Prepare extruder body</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Extruder x1</li>
@@ -139,7 +139,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 4 Prepare extruder Cover</h3>
+                <h3 id='step4'>Step 4 Prepare extruder Cover</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3 nuts x2</li>
@@ -166,7 +166,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 5 Placing the extruder cover</h3>
+                <h3 id='step5'>Step 5 Placing the extruder cover</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3x18 screw x1</li>
@@ -194,7 +194,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 6 Preparing the extruder motor</h3>
+                <h3 id='step6'>Step 6 Preparing the extruder motor</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Stepper motor x1</li>
@@ -222,7 +222,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 7 Mount the motor and idler</h3>
+                <h3 id='step7'>Step 7 Mount the motor and idler</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3x30 screw x2</li>
@@ -252,7 +252,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 8 Tightening the pulley</h3>
+                <h3 id='step8'>Step 8 Tightening the pulley</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>1.5mm Hex key</li>
@@ -281,7 +281,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 9 Prepare the extruder idler</h3>
+                <h3 id='step9'>Step 9 Prepare the extruder idler</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3 thin square nut x2</li>
@@ -308,7 +308,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 10 Prepare shaft w/ bearing</h3>
+                <h3 id='step10'>Step 10 Prepare shaft w/ bearing</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>shaft x1</li>
@@ -340,7 +340,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 11 Prepare the extruder idler screws</h3>
+                <h3 id='step11'>Step 11 Prepare the extruder idler screws</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3x40 screw x2</li>
@@ -357,7 +357,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 12 placing the screws</h3>
+                <h3 id='step12'>Step 12 placing the screws</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>2.5 mm Hex key</li>
@@ -379,7 +379,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 13 Preparing the print fan</h3>
+                <h3 id='step13'>Step 13 Preparing the print fan</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>2 mm Hex key</li>
@@ -408,7 +408,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 14 Prepare the fan nozzle</h3>
+                <h3 id='step14'>Step 14 Prepare the fan nozzle</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>2 mm Hex key</li>
@@ -437,7 +437,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 15 Proximity probe preparation</h3>
+                <h3 id='step15'>Step 15 Proximity probe preparation</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Proximity probe x1</li>
@@ -459,7 +459,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 16 Probe and fan cable preparation</h3>
+                <h3 id='step16'>Step 16 Probe and fan cable preparation</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li></li>
@@ -481,7 +481,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 17 Probe mounting</h3>
+                <h3 id='step17'>Step 17 Probe mounting</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li></li>
@@ -511,7 +511,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 18 Mounting the fan</h3>
+                <h3 id='step18'>Step 18 Mounting the fan</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>2.5 mm Hex key</li>
@@ -542,7 +542,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 19 Preparing for extruder mounting on X axis</h3>
+                <h3 id='step19'>Step 19 Preparing for extruder mounting on X axis</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>M3x40 screw x1</li>
@@ -559,7 +559,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 20 Extruder cables preparation</h3>
+                <h3 id='step20'>Step 20 Extruder cables preparation</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Guide cables from the extruder between chrome rods.</li>
@@ -574,7 +574,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 21 Arranging extruder cables</h3>
+                <h3 id='step21'>Step 21 Arranging extruder cables</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li></li>
@@ -602,7 +602,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 22 Securing Extruder in place</h3>
+                <h3 id='step22'>Step 22 Securing Extruder in place</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>2.5 mm Hex key</li>
@@ -624,7 +624,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 23 Cable Management Right Side</h3>
+                <h3 id='step23'>Step 23 Cable Management Right Side</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Zip Tie 20 cm x1</li>
@@ -652,7 +652,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 24 Cable Management Left Side</h3>
+                <h3 id='step24'>Step 24 Cable Management Left Side</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li></li>
@@ -679,7 +679,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>Step 25 Preparing the spiral wrap</h3>
+                <h3 id='step25'>Step 25 Preparing the spiral wrap</h3>
                 <h4>Hardware</h4>
                 <ul>
                   <li>Wire wrap x1</li>
@@ -709,7 +709,7 @@ class ExtruderAssembly extends React.Component {
             <hr />
             <Row className={s.root}>
               <Col xs={12} md={6}>
-                <h3>All Done!</h3>
+                <h3 id='allDone'>All Done!</h3>
                 <p>Congratulations! Now on to the next step.</p>
               </Col>
               <Col xs={12} md={6}>
