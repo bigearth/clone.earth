@@ -29,3 +29,20 @@
 
   }
 }
+
+.details {
+  padding: 6%;
+  background: #e9ebee;
+
+  .alignRight {
+    text-align: right;
+  }
+
+  .alignLeft {
+    text-align: left;
+  }
+
+  img {
+    width: 75%;
+  }
+}
