@@ -41,6 +41,16 @@ class Home extends React.Component {
           </Row>
         </Grid>
         <Grid fluid>
+          <Row className={s.pitch}>
+            <Col xs={12}>
+              <p>DESIGN AND CREATE NEW THINGS. UPGRADE AND FIX OLD THINGS.</p>
+            </Col>
+            <Col xs={12}>
+              <p>CLONE IS THE INDUSTRIAL REVOLUTION ON YOUR DESKTOP</p>
+            </Col>
+          </Row>
+        </Grid>
+        <Grid fluid>
           <Row className={s.details} id='hardware'>
             <Col xs={12} md={6} className={s.alignRight}>
               <h2>Quality Hardware</h2>

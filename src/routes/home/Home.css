@@ -46,8 +46,20 @@
   }
 }
 
+.pitch {
+  padding: 2% 13%;
+  background: #eeeeee;
+
+  p {
+    text-align: center;
+    margin: 0.5% 0;
+    font-size: 0.9em;
+  }
+}
+
+
 .details {
-  padding: 2% 6%;
+  padding: 4% 6% 3% 6%;
   background: #e9ebee;
   border-style: solid;
   border-color: grey;
