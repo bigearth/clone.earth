@@ -37,6 +37,8 @@ class Html extends React.Component {
           <link rel="apple-touch-icon" href="apple-touch-icon.png" />
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
           <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+          <script src="https://use.fontawesome.com/db9e110725.js"></script>
+
           {styles.map(style =>
             <style
               key={style.id}

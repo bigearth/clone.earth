@@ -85,3 +85,15 @@
 .details:nth-child(odd) {
   background: #f6f7f9;
 }
+
+.social {
+  text-align: center;
+  padding: 3% 30%;
+  
+  button {
+    color: white;
+    background: #4367B2;
+    font-size: 2em;
+    width: 50px;
+  }
+}
