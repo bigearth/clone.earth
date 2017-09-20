@@ -66,7 +66,7 @@ class Home extends React.Component {
             </Col>
             <Col xs={12} md={6} className={s.alignLeft}>
               <h2>Quality Software</h2>
-              <p>Clone runs Marlin on a Rambo Mini. This ensures that the that the objects your want are the objects you get.</p>
+              <p>Clone runs Marlin on a Rambo Mini. This ensures that the objects you want are the objects you get.</p>
             </Col>
            </Row>
           <Row className={s.details} id='anything'>
