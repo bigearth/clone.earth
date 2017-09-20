@@ -9,7 +9,7 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Button, Image } from 'reac
 class Navigation extends React.Component {
   render() {
     return (
-      <Navbar className={s.root} collapseOnSelect>
+      <Navbar className={s.root} collapseOnSelect fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
             <Link className={s.white} to="/">

@@ -31,8 +31,11 @@
 }
 
 .details {
-  padding: 6%;
+  padding: 2% 6%;
   background: #e9ebee;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px 0 0 0;
 
   .alignRight {
     text-align: right;
@@ -40,6 +43,10 @@
 
   .alignLeft {
     text-align: left;
+  }
+
+  p {
+    font-size: 1.25em;
   }
 
   img {

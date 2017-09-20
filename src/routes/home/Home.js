@@ -29,7 +29,7 @@ class Home extends React.Component {
           <Row className={s.details}>
             <Col xs={12} md={6} className={s.alignRight}>
               <h2>Quality Hardware</h2>
-              <p>Clone a desktop 3D printer for professionals. Built w/ the highest quality materials Clone will print all day every day.</p>
+              <p>Clone is a desktop 3D printer for professionals. Built w/ the highest quality materials Clone will print all day every day.</p>
             </Col>
             <Col xs={12} md={6} className={s.alignLeft}>
               <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg" thumbnail />
