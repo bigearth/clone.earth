@@ -6,6 +6,7 @@
   background: #4367B2;
   text-align: center;
   color: white;
+  margin-bottom: 0;
 
   h1 {
     margin: 0;
@@ -30,6 +31,10 @@
     width: 50%;
 
   }
+}
+
+.summary {
+  padding: 1% 10%;
 }
 
 .details {

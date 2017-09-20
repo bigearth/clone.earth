@@ -6,7 +6,7 @@
   color: white;
   border: none;
 
-  .white, .white li a {
+  .white, .white:visited, .white li a, .white li a:visited {
     color: white;
   }
 

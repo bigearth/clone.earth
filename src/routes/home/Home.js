@@ -17,7 +17,6 @@ class Home extends React.Component {
                 <h1>Clone</h1>
                 <p>Make your world</p>
                 <Link to="/preorder"><Button bsSize="large"><Glyphicon glyph="bitcoin" /> Preorder</Button></Link>
-
               </Col>
               <Col xs={12} md={6}>
                 <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg" circle />
@@ -26,7 +25,23 @@ class Home extends React.Component {
           </Grid>
         </Jumbotron>
         <Grid fluid>
-          <Row className={s.details}>
+          <Row className={s.summary}>
+            <Col xs={12} md={6} lg={3}>
+              <h3><Link to="#hardware"><Glyphicon glyph="wrench" /> Quality Hardware</Link></h3>
+            </Col>
+            <Col xs={12} md={6} lg={3}>
+              <h3><Link to="#software"><Glyphicon glyph="floppy-disk" /> Quality Software</Link></h3>
+            </Col>
+            <Col xs={12} md={6} lg={3}>
+              <h3><Link to="#anything"><Glyphicon glyph="star" /> Print Anything</Link></h3>
+            </Col>
+            <Col xs={12} md={6} lg={3}>
+              <h3><Link to="#opensource"><Glyphicon glyph="folder-open" /> Open Source</Link></h3>
+            </Col>
+          </Row>
+        </Grid>
+        <Grid fluid>
+          <Row className={s.details} id='hardware'>
             <Col xs={12} md={6} className={s.alignRight}>
               <h2>Quality Hardware</h2>
               <p>Clone is a desktop 3D printer for professionals. Built w/ the highest quality materials Clone will print all day every day.</p>
@@ -35,7 +50,7 @@ class Home extends React.Component {
               <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg" thumbnail />
             </Col>
            </Row>
-          <Row className={s.details}>
+          <Row className={s.details} id='software'>
             <Col xs={12} md={6} className={s.alignRight}>
               <Image src="marlin-logo.jpg" thumbnail />
             </Col>
@@ -44,7 +59,7 @@ class Home extends React.Component {
               <p>Clone runs Marlin on a Rambo Mini. This ensures that the that the objects your want are the objects you get.</p>
             </Col>
            </Row>
-          <Row className={s.details}>
+          <Row className={s.details} id='anything'>
             <Col xs={12} md={6} className={s.alignRight}>
               <h2>Print Anything</h2>
               <p>Clone prints 3 types of plastic and wood or metal composites. It can print any design you need from tools to toys.</p>
@@ -53,7 +68,7 @@ class Home extends React.Component {
               <Image src="board.jpg" thumbnail />
             </Col>
            </Row>
-          <Row className={s.details}>
+          <Row className={s.details} id='opensource'>
             <Col xs={12} md={6} className={s.alignRight}>
               <Image src="oshw-logo.png" thumbnail />
             </Col>
