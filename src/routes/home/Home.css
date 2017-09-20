@@ -1,7 +1,8 @@
 
 @import '../../components/variables.css';
 
-.root {
+.jumbotron {
+  padding: 7% 0 4% 0;
   background: #4367B2;
   text-align: center;
   color: white;
@@ -16,7 +17,8 @@
   }
 
   img {
-    height: 300px;
+    height: 50%;
+    width: 50%;
   }
 }
 

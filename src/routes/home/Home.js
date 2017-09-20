@@ -10,7 +10,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Jumbotron className={s.root}>
+        <Jumbotron className={s.jumbotron}>
           <Grid fluid>
             <Row>
               <Col xs={12} md={6} className={s.firstCol}>
