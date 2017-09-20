@@ -37,7 +37,7 @@ class Home extends React.Component {
            </Row>
           <Row className={s.details}>
             <Col xs={12} md={6} className={s.alignRight}>
-              <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg" thumbnail />
+              <Image src="marlin-logo.jpg" thumbnail />
             </Col>
             <Col xs={12} md={6} className={s.alignLeft}>
               <h2>Quality Software</h2>
@@ -50,7 +50,7 @@ class Home extends React.Component {
               <p>Clone prints 3 types of plastic and wood or metal composites. It can print any design you need from tools to toys.</p>
             </Col>
             <Col xs={12} md={6} className={s.alignLeft}>
-              <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg" thumbnail />
+              <Image src="board.jpg" thumbnail />
             </Col>
            </Row>
           <Row className={s.details}>
