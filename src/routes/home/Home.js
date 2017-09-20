@@ -90,21 +90,21 @@ class Home extends React.Component {
         </Grid>
         <Grid fluid>
           <Row className={s.social}>
-            <Col xs={12} md={4}>
+            <Col xs={4}>
               <a href="https://www.facebook.com/cloneearth/">
                 <Button>
                   <i className="fa fa-facebook"></i>
                 </Button>
               </a>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={4}>
               <a href="https://twitter.com/clone_earth/">
                 <Button>
                   <i className="fa fa-twitter"></i>
                 </Button>
               </a>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={4}>
               <Link to="/preorder">
                 <Button>
                   <i className="fa fa-youtube"></i>

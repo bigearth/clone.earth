@@ -3,15 +3,15 @@ import React from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Footer.css';
 import Link from '../Link';
+import { Button, Glyphicon } from 'react-bootstrap';
 
 class Footer extends React.Component {
   render() {
     return (
       <div className={s.root}>
         <div className={s.container}>
-          <span className={s.text}>© EARTH</span>
-          <span className={s.spacer}>·</span>
-          <Link className={s.link} to="/">Home</Link>
+          <Link className={s.link} to="/">© EARTH</Link>
+          <Link to="/donate"><Button bsSize="snall"><Glyphicon glyph="bitcoin" /> Donate</Button></Link>
         </div>
       </div>
     );
