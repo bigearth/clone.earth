@@ -5,6 +5,7 @@
   background: #4367B2;
   color: white;
   border: none;
+  padding: 0.5% 0;
 
   .white, .white:visited, .white li a, .white li a:visited {
     color: white;
