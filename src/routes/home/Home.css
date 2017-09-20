@@ -2,24 +2,24 @@
 @import '../../components/variables.css';
 
 .root {
-  img {
-    padding: 0;
-  }
-  
-  h1, h2 {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
+  background: #4367B2;
+  text-align: center;
+  color: white;
 
   h1 {
-    font-size: 4em;
-    top: 25%
+    margin: 0;
+    font-size: 5em;
   }
 
-  h2 {
+  p {
     font-size: 3em;
-    top: 45%
   }
+
+  img {
+    height: 300px;
+  }
+}
+
+.firstCol {
+  margin-bottom: 30px;
 }

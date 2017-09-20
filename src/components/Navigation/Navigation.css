@@ -2,8 +2,13 @@
 .root {
   margin-bottom: 0;
   border-radius: 0;
-  background: none;
+  background: #4367B2;
+  color: white;
   border: none;
+
+  .white, .white li a {
+    color: white;
+  }
 
   img {
     height: 30px;

@@ -12,14 +12,14 @@ class Navigation extends React.Component {
       <Navbar className={s.root} collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <Link to="/">
+            <Link className={s.white} to="/">
               <Image src="EARTH-logo.png" />
               EARTH</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav pullRight>
+          <Nav pullRight className={s.white}>
             <NavDropdown eventKey={3} title="Docs" id="docs-dropdown">
               <MenuItem eventKey={3.1} href="/hardware">Hardware</MenuItem>
               <MenuItem eventKey={3.1} href="/docs">Contribute</MenuItem>
