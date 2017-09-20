@@ -22,4 +22,10 @@
 
 .firstCol {
   margin-bottom: 30px;
+
+  button {
+    border-radius: 5px;
+    width: 50%;
+
+  }
 }

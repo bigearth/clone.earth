@@ -9,13 +9,14 @@
 
 html {
   color: #222;
-  font-family: var(--font-family-base);
   line-height: 1.375; /* ~22px */
 }
 
 body {
   margin: 0;
   font-size: 1.5em; /* ~16px; */
+  font-family: 'Roboto', sans-serif;
+
 }
 
 a {

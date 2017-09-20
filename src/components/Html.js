@@ -36,6 +36,7 @@ class Html extends React.Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="apple-touch-icon" href="apple-touch-icon.png" />
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
           {styles.map(style =>
             <style
               key={style.id}
