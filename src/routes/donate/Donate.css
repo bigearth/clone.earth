@@ -1,0 +1,30 @@
+
+@import '../../components/variables.css';
+
+.titlecontainer {
+  text-align: center;
+
+  h2 {
+    color: white;
+    font-size: 2.25em;
+  }
+}
+
+.title{
+  background: #4367B2;
+  padding-top: 6%;
+}
+
+.details {
+  padding: 2% 10%;
+  font-size: 1.25em;
+  background: #eeeeee;
+  text-align: center;
+}
+
+.detailsqr {
+  padding-top: 2%;
+  font-size: 1.25em;
+  background: white;
+  text-align: center;
+}

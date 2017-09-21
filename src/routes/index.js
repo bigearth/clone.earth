@@ -27,6 +27,7 @@ export default {
     require('./heatbed-assembly').default,
     require('./electronics-assembly').default,
     require('./credits').default,
+    require('./donate').default,
 
     // Wildcard routes, e.g. { path: '*', ... } (must go last)
     require('./notFound').default,
