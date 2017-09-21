@@ -9,7 +9,7 @@ class Software extends React.Component {
   render() {
     return (
       <Grid fluid>
-        <Row>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h2>Software</h2>
             <h3>High Level Overview</h3>

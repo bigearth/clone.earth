@@ -9,7 +9,7 @@ class Docs extends React.Component {
   render() {
     return (
       <Grid fluid>
-        <Row>
+        <Row className={s.root}>
           <Col xs={12} md={6}>
             <h2>Contribute</h2>
             <p>Clone is 100% open source! Add to and/or extend it in any way you see possible.</p>

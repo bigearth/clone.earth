@@ -21,6 +21,8 @@ class Navigation extends React.Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight className={s.white}>
+            <NavItem href="/hardware">Hardware</NavItem>
+            <NavItem href="https://github.com/bigearth/marlin">Software</NavItem>
             <NavItem href="/about">About</NavItem>
           </Nav>
         </Navbar.Collapse>
