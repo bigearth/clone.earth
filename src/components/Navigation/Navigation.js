@@ -24,6 +24,7 @@ class Navigation extends React.Component {
             <NavItem href="https://github.com/bigearth/marlin">Software</NavItem>
             <NavItem href="/about">About</NavItem>
             <NavItem href="/preorder">Preorder</NavItem>
+            <NavItem href="/examples">Examples</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
