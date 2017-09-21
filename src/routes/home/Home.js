@@ -19,7 +19,7 @@ class Home extends React.Component {
                 <Link to="/preorder"><Button bsSize="large"><Glyphicon glyph="bitcoin" /> Preorder</Button></Link>
               </Col>
               <Col xs={12} md={6}>
-                <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg" circle />
+                <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg" thumbnail />
               </Col>
             </Row>
           </Grid>
