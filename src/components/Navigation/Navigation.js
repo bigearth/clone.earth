@@ -16,7 +16,6 @@ class Navigation extends React.Component {
               <Image src="EARTH-logo.png" />
               EARTH</Link>
           </Navbar.Brand>
-          <Link to="/preorder"><Button bsSize="large"><Glyphicon glyph="bitcoin" /> Preorder</Button></Link>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
