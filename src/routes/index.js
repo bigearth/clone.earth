@@ -28,6 +28,7 @@ export default {
     require('./electronics-assembly').default,
     require('./credits').default,
     require('./donate').default,
+    require('./examples').default,
 
     // Wildcard routes, e.g. { path: '*', ... } (must go last)
     require('./notFound').default,

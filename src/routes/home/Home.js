@@ -62,29 +62,35 @@ class Home extends React.Component {
            </Row>
           <Row className={s.details} id='software'>
             <Col xs={12} md={6} className={s.alignRight}>
-              <Image src="marlin-logo.jpg" thumbnail />
+              <a href='https://github.com/bigearth/Marlin'>
+                <Image src="marlin-logo.jpg" thumbnail />
+              </a>
             </Col>
             <Col xs={12} md={6} className={s.alignLeft}>
               <h2>Quality Software</h2>
-              <p>Clone runs Marlin on a Rambo Mini. This ensures that the objects you want are the objects you get.</p>
+              <p>Clone runs <a href='https://github.com/bigearth/Marlin'>Marlin</a> on a Rambo Mini. This ensures that the objects you want are the objects you get.</p>
             </Col>
            </Row>
           <Row className={s.details} id='anything'>
             <Col xs={12} md={6} className={s.alignRight}>
               <h2>Print Anything</h2>
-              <p>Clone prints 3 types of plastic and wood or metal composites. It can print any design you need from tools to toys.</p>
+              <p>Clone prints 3 types of plastic and wood or metal composites. It can print any design you need from <Link to='/examples'>tools to toys</Link>.</p>
             </Col>
             <Col xs={12} md={6} className={s.alignLeft}>
-              <Image src="board.jpg" thumbnail />
+              <Link to='/examples'>
+                <Image src="board.jpg" thumbnail />
+              </Link>
             </Col>
            </Row>
           <Row className={s.details} id='opensource'>
             <Col xs={12} md={6} className={s.alignRight}>
-              <Image src="oshw-logo.png" thumbnail />
+              <Link to='/docs'>
+                <Image src="oshw-logo.png" thumbnail />
+               </Link>
             </Col>
             <Col xs={12} md={6} className={s.alignLeft}>
               <h2>Open Source</h2>
-              <p>Clone is a member of the RepRap family. As such Clone&rsquo;s hardware and software are 100% open source enabling makers around the world.</p>
+              <p>Clone is a member of the RepRap family. As such Clone&rsquo;s hardware and software are <Link to='/docs'>100% open source</Link> enabling makers around the world.</p>
             </Col>
            </Row>
         </Grid>
