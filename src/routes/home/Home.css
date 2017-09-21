@@ -21,6 +21,12 @@
     height: 50%;
     width: 50%;
   }
+
+  @media only screen
+  and (min-device-width : 300px)
+  and (max-device-width : 667px) {
+    padding-top: 20%;
+  }
 }
 
 .firstCol {
@@ -81,6 +87,15 @@
   img {
     width: 75%;
   }
+
+  @media only screen
+  and (min-device-width : 300px)
+  and (max-device-width : 667px) {
+
+    .alignRight, .alignLeft {
+      text-align: center;
+    }
+  }
 }
 .details:nth-child(odd) {
   background: #f6f7f9;
@@ -89,7 +104,7 @@
 .social {
   text-align: center;
   padding: 3% 30%;
-  
+
   button {
     color: white;
     background: #4367B2;
