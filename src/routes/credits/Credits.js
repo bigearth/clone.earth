@@ -32,6 +32,13 @@ class Credits extends React.Component {
                 <p><a href='https://toms3d.org'>More info</a></p>
               </Col>
             </Row>
+            <Row className={s.root}>
+              <Col xs={12} md={6}>
+                <h3>FrostWire</h3>
+                <p>Their landing page inspired ours.</p>
+                <p><a href='http://www.frostwire.com/home'>More info</a></p>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Grid>
