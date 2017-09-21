@@ -9,7 +9,7 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Button, Image, Glyphicon }
 class Navigation extends React.Component {
   render() {
     return (
-      <Navbar className={s.root} collapseOnSelect fixedTop>
+      <Navbar className={s.root} fixedTop>
         <Navbar.Header>
           <Navbar.Brand>
             <Link className={s.white} to="/">
@@ -21,11 +21,11 @@ class Navigation extends React.Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight className={s.white}>
-            <NavDropdown eventKey={3} title="Docs" id="docs-dropdown">
-              <MenuItem eventKey={3.1} href="/hardware">Hardware</MenuItem>
-              <MenuItem eventKey={3.1} href="/docs">Contribute</MenuItem>
+            <NavDropdown title="Docs" id="docs-dropdown">
+              <MenuItem href="/hardware">Hardware</MenuItem>
+              <MenuItem href="/docs">Contribute</MenuItem>
             </NavDropdown>
-            <NavItem eventKey={1} href="/about">About</NavItem>
+            <NavItem href="/about">About</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
