@@ -13,6 +13,12 @@
 .title{
   background: #4367B2;
   padding-top: 6%;
+
+  @media only screen
+  and (min-device-width : 300px)
+  and (max-device-width : 667px) {
+    padding-top: 20%;
+  }
 }
 
 .details {

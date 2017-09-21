@@ -23,6 +23,7 @@ class Navigation extends React.Component {
             <NavItem href="/hardware">Hardware</NavItem>
             <NavItem href="https://github.com/bigearth/marlin">Software</NavItem>
             <NavItem href="/about">About</NavItem>
+            <NavItem href="/preorder">Preorder</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

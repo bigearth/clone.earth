@@ -13,6 +13,12 @@
 .title{
   background: #4367B2;
   padding-top: 6%;
+
+  @media only screen
+  and (min-device-width : 300px)
+  and (max-device-width : 667px) {
+    padding-top: 20%;
+  }
 }
 
 .details {
@@ -30,9 +36,6 @@
   font-size: 1.25em;
   background: white;
   text-align: center;
-  img {
-    width: 50%;
-  }
 }
 
 .alignRight {
@@ -41,4 +44,13 @@
 
 .alignLeft {
   text-align: left;
+}
+
+.alignRight, .alignLeft {
+
+  @media only screen
+  and (min-device-width : 300px)
+  and (max-device-width : 667px) {
+    text-align: center;
+  }
 }
