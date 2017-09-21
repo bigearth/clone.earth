@@ -27,6 +27,7 @@ class Donate extends React.Component {
         <Grid fluid>
           <Row className={s.detailsqr}>
             <Col xs={12}>
+              <p>3J1W2fWTzbiR46Gkn25vZDeBwnCzu6TNha</p>
               <p>
                 <Image src="donate-qr.jpg" thumbnail />
               </p>

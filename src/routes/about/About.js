@@ -14,6 +14,9 @@ class About extends React.Component {
           <Col xs={12} md={6}>
             <h2>Created By EARTH</h2>
             <h3>Based in San Francisco</h3>
+            <p>We believe in humans and machines working together to bring EARTH in to balance. We believe in biomimicry.</p>
+            <p>We believe in open source, open minds and open hearts. We believe the arch of history bends towards justice.</p>
+            <p>What do you believe?</p>
             <h4>Contact</h4>
             <a href='mailto:connect@clone.earth'>connect@clone.earth</a>
             <h4>Facebook</h4>
