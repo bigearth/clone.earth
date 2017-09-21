@@ -21,10 +21,6 @@ class Navigation extends React.Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight className={s.white}>
-            <NavDropdown title="Docs" id="docs-dropdown">
-              <MenuItem href="/hardware">Hardware</MenuItem>
-              <MenuItem href="/docs">Contribute</MenuItem>
-            </NavDropdown>
             <NavItem href="/about">About</NavItem>
           </Nav>
         </Navbar.Collapse>

@@ -50,11 +50,6 @@ class DocsTOC extends React.Component {
         'external': false
       },
       {
-        'text': 'Electronics assembly',
-        'href': '/electronics-assembly',
-        'external': false
-      },
-      {
         'text': 'Credits',
         'href': '/credits',
         'external': false

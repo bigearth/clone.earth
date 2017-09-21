@@ -54,10 +54,12 @@ class Home extends React.Component {
           <Row className={s.details} id='hardware'>
             <Col xs={12} md={6} className={s.alignRight}>
               <h2>Quality Hardware</h2>
-              <p>Clone is a desktop 3D printer for professionals. Built w/ the highest quality materials Clone will print all day every day.</p>
+              <p>Clone is a desktop 3D printer for professionals. Built w/ the <Link to='/hardware'>highest quality materials</Link> Clone will print all day every day.</p>
             </Col>
             <Col xs={12} md={6} className={s.alignLeft}>
-              <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg" thumbnail />
+              <Link to='/hardware'>
+                <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/z-axis/step-1.jpg" thumbnail />
+              </Link>
             </Col>
            </Row>
           <Row className={s.details} id='software'>

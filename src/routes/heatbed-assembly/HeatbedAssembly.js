@@ -9,13 +9,13 @@ import DocsTOC from '../../components/DocsTOC';
 class HeatbedAssembly extends React.Component {
   render() {
     return (
-      <Grid bsClass={s['container-fluid']}>
-        <Row>
+      <Grid fluid>
+        <Row className={s.root}>
           <Col xs={12} sm={12} md={2} lg={2} >
             <DocsTOC selected="/heatbed-assembly" />
           </Col>
           <Col xs={12} sm={12} md={10} lg={10}>
-            <Row className={s.root}>
+            <Row>
               <Col xs={12} md={6}>
                 <h2>Heatbed Assembly</h2>
                 <h3>Step 1 Gather materials</h3>

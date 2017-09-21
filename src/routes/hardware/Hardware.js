@@ -10,9 +10,9 @@ import DocsTOC from '../../components/DocsTOC';
 class Hardware extends React.Component {
   render() {
     return (
-      <Grid bsClass={s['container-fluid']}>
-        <Row>
-          <Col xs={12} sm={12} md={2} lg={2} >
+      <Grid fluid>
+        <Row className={s.root}>
+          <Col xs={12} sm={12} md={2} lg={2}>
             <DocsTOC selected="/hardware" />
           </Col>
           <Col xs={12} sm={12} md={10} lg={10}>
