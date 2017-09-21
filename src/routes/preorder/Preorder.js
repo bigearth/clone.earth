@@ -20,7 +20,7 @@ class Preorder extends React.Component {
           <Row className={s.details}>
             <Col xs={12} sm={6} className={s.alignRight}>
               <p>We&rsquo;re launching Clone and are making preorders available. This is for people who believe in EARTH&rsquo;s vision and want to help us start this mission of a Clone for everyone on EARTH.</p>
-              <p>We envision humans and machines bringing nature in to balance and uplifting the human condition and we&rsquo;re initially only accepting Bitcoin Cash because we believe in Satoshi&rsquo;s vision of a currency for the world&rsquo;s unbanked.</p>
+              <p>We&rsquo;re initially only accepting Bitcoin Cash because we believe in Satoshi&rsquo;s vision of a currency for the world&rsquo;s unbanked.</p>
               <p>To order a clone send $1,000 USD in Bitcoin Cash to <strong>3D8sBLyTeBbwJpCR3KcAvNzgWo3CTJqiMM</strong>. Then send the transaction id to <strong>buy@clone.earth</strong>. You&rsquo;ll get back a confirmation email shortly and your Clone will begin getting made.</p>
               <p>There is currently a 3 month lead time before the machines ship. Thank you for sharing our vision and taking the first step w/ us in making it a reality.</p>
             </Col>

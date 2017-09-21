@@ -9,28 +9,156 @@ import Link from '../../components/Link';
 class Examples extends React.Component {
   render() {
     return (
-      <Grid fluid className={s.root}>
-        <Row>
-          <Col xs={12} md={6}>
-            <h2>Created By EARTH</h2>
-            <h3>Based in San Francisco</h3>
-            <p>We believe in humans and machines working together to bring EARTH in to balance. We believe in biomimicry.</p>
-            <p>We believe in open source, open minds and open hearts. We believe the arch of history bends towards justice.</p>
-            <p>What do you believe?</p>
-            <h4>Contact</h4>
-            <a href='mailto:connect@clone.earth'>connect@clone.earth</a>
-            <h4>Facebook</h4>
-            <a href='https://www.facebook.com/cloneearth/'>CloneEarth</a>
-            <h4>Twitter</h4>
-            <a href='https://www.twitter.com/clone_earth/'>@Clone_Earth</a>
-          </Col>
-          <Col xs={12} md={6}>
-            <a href='https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg'>
-              <Image src="https://s3-us-west-1.amazonaws.com/www-clone-earth-assets/home.jpg" thumbnail />
-            </a>
-          </Col>
-        </Row>
-      </Grid>
+      <div>
+        <Grid fluid className={s.titlecontainer}>
+          <Row className={s.title}>
+            <Col xs={12}>
+              <h2>Examples</h2>
+            </Col>
+          </Row>
+        </Grid>
+        <Grid fluid className={s.detailscontainer}>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="batman+1.jpg" thumbnail />
+              <Image src="belt-1.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="belt-2.jpg" thumbnail />
+              <Image src="bottom-1.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="carriage-1.jpg" thumbnail />
+              <Image src="carriage-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="earth-cards-multi-color.jpeg" thumbnail />
+              <Image src="filament+spool+holder.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="idler-1.jpg" thumbnail />
+              <Image src="idler-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="idler+and+motor.jpg" thumbnail />
+              <Image src="lcd+clips.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="lcd+knob-1.jpg" thumbnail />
+              <Image src="lcd+knob-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="lcd+screeen-2.jpg" thumbnail />
+              <Image src="lcd+support-1.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="lcd+support-2.jpg" thumbnail />
+              <Image src="lcd+support-3.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="pcb.jpg" thumbnail />
+              <Image src="psu-1.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="psu-2.jpg" thumbnail />
+              <Image src="smaug1.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="smaug2.jpg" thumbnail />
+              <Image src="smaug3.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="spool+holder.jpg" thumbnail />
+              <Image src="steal+your+face.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="support+1.jpg" thumbnail />
+              <Image src="support+2.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="top-1.jpg" thumbnail />
+              <Image src="tree+frog+1.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="tree+frog+2.jpg" thumbnail />
+              <Image src="tree+frog+3.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="vibration-absorbers-1.jpg" thumbnail />
+              <Image src="vibration-absorbers-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="vibration-absorbers-3.jpg" thumbnail />
+              <Image src="x+axis+top.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="y+all.jpg" thumbnail />
+              <Image src="y+axis+motor-1.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="y+axis+motor-2.jpg" thumbnail />
+              <Image src="y+axis+motor-3.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="y+axis+stepper+motors-1.jpg" thumbnail />
+              <Image src="y+axis+stepper+motors-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="y+axis+stepper+motors-3.jpg" thumbnail />
+              <Image src="y+belt-1.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="y+belt-2.jpg" thumbnail />
+              <Image src="y+belt-3.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="y+corner-1.jpg" thumbnail />
+              <Image src="y+corner-2.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="y+idler-1.jpg" thumbnail />
+              <Image src="y+idler-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="y+idler-3.jpg" thumbnail />
+              <Image src="z+axis+bottom.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="z+axis+stepper+motor-1.jpg" thumbnail />
+              <Image src="z+axis+stepper+motor-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="z+axis+stepper+motor-3.jpg" thumbnail />
+            </Col>
+          </Row>
+        </Grid>
+      </div>
     );
   }
 }
