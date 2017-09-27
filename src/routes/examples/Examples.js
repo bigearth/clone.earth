@@ -20,6 +20,56 @@ class Examples extends React.Component {
         <Grid fluid className={s.detailscontainer}>
           <Row className={s.details}>
             <Col xs={12} sm={6}>
+              <Image src="accepted-1.jpg" thumbnail />
+              <Image src="accepted-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="accepted-3.jpg" thumbnail />
+              <Image src="accepted-4.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="accepted-5.jpg" thumbnail />
+              <Image src="benchy.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="dinosaur-1.jpg" thumbnail />
+              <Image src="dinosaur-2.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="fractal-1.jpg" thumbnail />
+              <Image src="fractal-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="ganesha.jpg" thumbnail />
+              <Image src="steal.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="whistle.jpg" thumbnail />
+              <Image src="yoda-1.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="yoda-2.jpg" thumbnail />
+              <Image src="z+axis+stepper+motor-3.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
+              <Image src="chess-1.jpg" thumbnail />
+              <Image src="chess-2.jpg" thumbnail />
+            </Col>
+            <Col xs={12} sm={6}>
+              <Image src="chess-3.jpg" thumbnail />
+              <Image src="chess-4.jpg" thumbnail />
+            </Col>
+          </Row>
+          <Row className={s.details}>
+            <Col xs={12} sm={6}>
               <Image src="batman+1.jpg" thumbnail />
               <Image src="belt-1.jpg" thumbnail />
             </Col>
@@ -154,7 +204,6 @@ class Examples extends React.Component {
               <Image src="z+axis+stepper+motor-2.jpg" thumbnail />
             </Col>
             <Col xs={12} sm={6}>
-              <Image src="z+axis+stepper+motor-3.jpg" thumbnail />
             </Col>
           </Row>
         </Grid>

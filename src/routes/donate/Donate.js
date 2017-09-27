@@ -7,6 +7,9 @@ import { Grid, Row, Col, Image } from 'react-bootstrap';
 import Link from '../../components/Link';
 
 class Donate extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return (
       <div>
@@ -26,18 +29,25 @@ class Donate extends React.Component {
         </Grid>
         <Grid fluid>
           <Row className={s.detailsqr}>
-            <Col xs={12}>
-              <p className={s.overflow}>14xYtMKXSdJ5TKwTcdXkbPAwsnuEkhGJ6b</p>
+            <Col xs={12} md={6}>
+              <h3>Donate w/ Bitcoin Cash*</h3>
               <p>
                 <Image src="donate-qr.jpg" thumbnail />
               </p>
+              <p className={s.overflow}>14xYtMKXSdJ5TKwTcdXkbPAwsnuEkhGJ6b</p>
+            </Col>
+            <Col xs={12} md={6}>
+              <h3>Donate Via Shapeshift</h3>
+              <a href={this.props.shapeshift}>
+                <Image src="shapeshift.png" className="" thumbnail />
+              </a>
             </Col>
           </Row>
         </Grid>
         <Grid fluid className={s.detailscontainer}>
           <Row className={s.details}>
             <Col xs={12}>
-              <p>* This is a Bitcoin Cash address and not Bitcoin. There is a difference. If you have Bitcoin please use <a href='https://shapeshift.io'>ShapeShift</a> to shift your Bitcoin to Bitcoin Cash before donating. Thanks!</p>
+              <p>* This is a <a href='https://www.bitcoincash.org/'>Bitcoin Cash</a> address and not Bitcoin. There is a difference. If you have Bitcoin please use <a href={this.props.shapeshift}>ShapeShift</a> to donate. Thanks!</p>
             </Col>
           </Row>
         </Grid>

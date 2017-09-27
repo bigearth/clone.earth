@@ -6,6 +6,28 @@ import s from './Preorder.css';
 import { Grid, Row, Col, Button, Image } from 'react-bootstrap';
 
 class Preorder extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      price: 0,
+      shapeshift: ''
+    };
+    let that = this;
+    fetch('https://blockchain.info/ticker').then(function(response) {
+    	return response.json();
+    }).then(function(j) {
+      let last = j.USD.last;
+      fetch('https://shapeshift.io/rate/bch_btc').then(function(response) {
+      	return response.json();
+      }).then(function(j) {
+        let price = (900 / (last * j.rate)).toFixed(8);
+        that.setState({
+          price: price,
+          shapeshift: `https://shapeshift.io/shifty.html?destination=13RrATERfYvKfMTCGA6bfv5cBSzttts6gj&output=BCH&amount=${price}`});
+      });
+    });
+  }
+
   render() {
     return (
       <div>
@@ -19,9 +41,9 @@ class Preorder extends React.Component {
         <Grid fluid className={s.detailscontainer}>
           <Row className={s.details}>
             <Col xs={12} sm={6} className={s.alignRight}>
-              <p>We&rsquo;re launching Clone and are making preorders available. This is for people who believe in EARTH&rsquo;s vision and want to help us start this mission of a Clone for everyone on EARTH.</p>
-              <p>We&rsquo;re initially only accepting Bitcoin Cash because we believe in Satoshi&rsquo;s vision of a currency for the world&rsquo;s unbanked.</p>
-              <p>To order a clone send $1,000 USD in Bitcoin Cash to <strong>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</strong>. Then send the transaction id to <strong>buy@clone.earth</strong>. You&rsquo;ll get back a confirmation email shortly and your Clone will begin getting made.</p>
+              <p>We&rsquo;re launching Clone and are making preorders available. This is for people who believe in EARTH&rsquo;s vision of a Clone for everyone on EARTH.</p>
+              <p>We accept all major crypto currencies via shapeshift but we prefer Bitcoin Cash* because we believe in Satoshi&rsquo;s vision of a currency for the world&rsquo;s unbanked.</p>
+              <p>To order a clone send <strong><span>{this.state.price}</span></strong> Bitcoin Cash to <strong>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</strong>. Then send the transaction id to <strong>buy@clone.earth</strong>. You&rsquo;ll get back a confirmation email shortly and your Clone will begin getting made.</p>
               <p>There is currently a 3 month lead time before the machines ship. Thank you for sharing our vision and taking the first step w/ us in making it a reality.</p>
             </Col>
             <Col xs={12} sm={6} className={s.alignLeft}>
@@ -31,18 +53,26 @@ class Preorder extends React.Component {
         </Grid>
         <Grid fluid>
           <Row className={s.detailsqr}>
-            <Col xs={12}>
-              <p>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</p>
+            <Col xs={12} md={6}>
+              <h3>Purchase w/ Bitcoin Cash*</h3>
               <p>
                 <Image src="purchase-qr.jpg" thumbnail />
               </p>
+              <p></p>
+              <p className={s.overflow}>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</p>
+            </Col>
+            <Col xs={12} md={6}>
+              <h3>Purchase Via Shapeshift</h3>
+              <a href={this.state.shapeshift}>
+                <Image src="shapeshift.png" className="" thumbnail />
+              </a>
             </Col>
           </Row>
         </Grid>
         <Grid fluid className={s.detailscontainer}>
           <Row className={s.details}>
             <Col xs={12}>
-              <p>* This is a Bitcoin Cash address and not Bitcoin. There is a difference. If you have Bitcoin please use <a href='https://shapeshift.io'>ShapeShift</a> to shift your Bitcoin to Bitcoin Cash before donating. Thanks!</p>
+              <p>* This is a <a href='https://www.bitcoincash.org/'>Bitcoin Cash</a> address and not Bitcoin. There is a difference. If you have Bitcoin please use <a href={this.state.shapeshift}>ShapeShift</a> to purchase. Thanks!</p>
             </Col>
           </Row>
         </Grid>

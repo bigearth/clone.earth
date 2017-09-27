@@ -12,7 +12,7 @@ export default {
   action() {
     return {
       title,
-      component: <Layout><Donate title={title} /></Layout>,
+      component: <Layout><Donate shapeshift='https://shapeshift.io/shifty.html?destination=14xYtMKXSdJ5TKwTcdXkbPAwsnuEkhGJ6b&output=BCH' /></Layout>,
     };
   },
 
