@@ -41,7 +41,7 @@ class Preorder extends React.Component {
         <Grid fluid className={s.detailscontainer}>
           <Row className={s.details}>
             <Col xs={12} sm={6} className={s.alignRight}>
-              <p>We&rsquo;re launching Clone and are making preorders available. This is for people who believe in EARTH&rsquo;s vision of a Clone for everyone on EARTH.</p>
+              <p>We&rsquo;re launching Clone and are making preorders available. This is for people who believe in our vision of a Clone for everyone on EARTH.</p>
               <p>We accept all major crypto currencies via shapeshift but we prefer Bitcoin Cash* because we believe in Satoshi&rsquo;s vision of a currency for the world&rsquo;s unbanked.</p>
               <p>To order a clone send <strong><span>{this.state.price}</span></strong> Bitcoin Cash to <strong>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</strong>. Then send the transaction id to <strong>buy@clone.earth</strong>. You&rsquo;ll get back a confirmation email shortly and your Clone will begin getting made.</p>
               <p>There is currently a 3 month lead time before the machines ship. Thank you for sharing our vision and taking the first step w/ us in making it a reality.</p>
