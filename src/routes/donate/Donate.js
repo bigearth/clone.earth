@@ -26,11 +26,18 @@ class Donate extends React.Component {
         </Grid>
         <Grid fluid>
           <Row className={s.detailsqr}>
-            <Col xs={12}>
-              <p className={s.overflow}>14xYtMKXSdJ5TKwTcdXkbPAwsnuEkhGJ6b</p>
+            <Col xs={12} md={6}>
+              <h3>Donate w/ Bitcoin Cash*</h3>
               <p>
                 <Image src="donate-qr.jpg" thumbnail />
               </p>
+              <p className={s.overflow}>14xYtMKXSdJ5TKwTcdXkbPAwsnuEkhGJ6b</p>
+            </Col>
+            <Col xs={12} md={6}>
+              <h3>Donate Via Shapeshift</h3>
+              <a href='https://shapeshift.io/shifty.html?destination=14xYtMKXSdJ5TKwTcdXkbPAwsnuEkhGJ6b&output=BCH'>
+                <Image src="shapeshift.png" className="" thumbnail />
+              </a>
             </Col>
           </Row>
         </Grid>

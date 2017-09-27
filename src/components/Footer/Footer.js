@@ -11,7 +11,7 @@ class Footer extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <Link className={s.link} to="/">© EARTH</Link>
-          <Link to="/donate"><Button><Glyphicon glyph="bitcoin" /> Donate</Button></Link>
+          <Link to="/donate"><Button><Glyphicon glyph="heart" /> Donate</Button></Link>
         </div>
       </div>
     );
