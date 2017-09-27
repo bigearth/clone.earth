@@ -53,13 +53,18 @@ class Preorder extends React.Component {
         </Grid>
         <Grid fluid>
           <Row className={s.detailsqr}>
-            <Col xs={12}>
-              <p>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</p>
+            <Col xs={12} md={6}>
+              <h3>Purchase w/ Bitcoin Cash*</h3>
               <p>
                 <Image src="purchase-qr.jpg" thumbnail />
               </p>
+              <p></p>
+              <p className={s.overflow}>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</p>
+            </Col>
+            <Col xs={12} md={6}>
+              <h3>Purchase Via Shapeshift</h3>
               <a href={this.state.shapeshift}>
-                <img src="https://shapeshift.io/images/shifty/small_light_altcoins.png" className="ss-button" />
+                <Image src="shapeshift.png" className="" thumbnail />
               </a>
             </Col>
           </Row>
@@ -67,7 +72,7 @@ class Preorder extends React.Component {
         <Grid fluid className={s.detailscontainer}>
           <Row className={s.details}>
             <Col xs={12}>
-              <p>* This is a Bitcoin Cash address and not Bitcoin. There is a difference. If you have Bitcoin please use <a href='https://shapeshift.io'>ShapeShift</a> to shift your Bitcoin to Bitcoin Cash before purchasing. Thanks!</p>
+              <p>* This is a <a href='https://www.bitcoincash.org/'>Bitcoin Cash</a> address and not Bitcoin. There is a difference. If you have Bitcoin please use <a href={this.state.shapeshift}>ShapeShift</a> to purchase. Thanks!</p>
             </Col>
           </Row>
         </Grid>
