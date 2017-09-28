@@ -33,4 +33,8 @@
   font-size: 1.25em;
   background: white;
   text-align: center;
+
+  img.donate {
+    height: 200px;
+  }
 }

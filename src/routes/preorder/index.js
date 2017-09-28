@@ -12,7 +12,7 @@ export default {
   action() {
     return {
       title,
-      component: <Layout><Preorder title={title} /></Layout>,
+      component: <Layout><Preorder paypal='https://www.paypal.me/CloneEARTH' title={title} /></Layout>,
     };
   },
 

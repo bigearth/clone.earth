@@ -43,7 +43,7 @@ class Preorder extends React.Component {
             <Col xs={12} sm={6} className={s.alignRight}>
               <p>We&rsquo;re launching Clone and are making preorders available. This is for people who believe in our vision of a Clone for everyone on EARTH.</p>
               <p>We accept all major crypto currencies via shapeshift but we prefer Bitcoin Cash* because we believe in Satoshi&rsquo;s vision of a currency for the world&rsquo;s unbanked.</p>
-              <p>To order a clone send <strong><span>{this.state.price}</span></strong> Bitcoin Cash to <strong>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</strong>. Then send the transaction id to <strong>buy@clone.earth</strong>. You&rsquo;ll get back a confirmation email shortly and your Clone will begin getting made.</p>
+              <p>To order a clone send <strong><span>{this.state.price}</span></strong> Bitcoin Cash to <strong>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</strong> or <strong>$900</strong> via <a href={this.props.paypal}>Paypal</a>. Then send the transaction id to <strong>buy@clone.earth</strong>. You&rsquo;ll get back a confirmation email shortly and your Clone will begin getting made.</p>
               <p>There is currently a 3 month lead time before the machines ship. Thank you for sharing our vision and taking the first step w/ us in making it a reality.</p>
             </Col>
             <Col xs={12} sm={6} className={s.alignLeft}>
@@ -53,18 +53,24 @@ class Preorder extends React.Component {
         </Grid>
         <Grid fluid>
           <Row className={s.detailsqr}>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <h3>Purchase w/ Bitcoin Cash*</h3>
               <p>
-                <Image src="purchase-qr.jpg" thumbnail />
+                <Image className={s.preorder} src="purchase-qr.jpg" thumbnail />
               </p>
               <p></p>
               <p className={s.overflow}>13RrATERfYvKfMTCGA6bfv5cBSzttts6gj</p>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <h3>Purchase Via Shapeshift</h3>
               <a href={this.state.shapeshift}>
-                <Image src="shapeshift.png" className="" thumbnail />
+                <Image className={s.preorder} src="shapeshift.png" thumbnail />
+              </a>
+            </Col>
+            <Col xs={12} md={4}>
+              <h3>Donate Via Paypal</h3>
+              <a href={this.props.paypal}>
+                <Image className={s.preorder} src="paypal.png" thumbnail />
               </a>
             </Col>
           </Row>
