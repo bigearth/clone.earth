@@ -68,7 +68,7 @@ class Preorder extends React.Component {
               </a>
             </Col>
             <Col xs={12} md={4}>
-              <h3>Donate Via Paypal</h3>
+              <h3>Purchase Via Paypal</h3>
               <a href={this.props.paypal}>
                 <Image className={s.preorder} src="paypal.png" thumbnail />
               </a>
