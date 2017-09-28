@@ -1,10 +1,13 @@
-
 :root {
   /*
    * Typography
    * ======================================================================== */
 
   --font-family-base: 'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+  --earth-blue: #4367B2;
+  --white: #ffffff;
+  
+  --grey-border: #dddfe2;
 
   /*
    * Layout

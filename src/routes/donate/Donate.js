@@ -23,7 +23,7 @@ class Donate extends React.Component {
         <Grid fluid className={s.detailscontainer}>
           <Row className={s.details}>
             <Col xs={12}>
-              <p>Our vision is a Clone for every person on EARTH. We also believe in Bitcoin Cash&mdash;a peer to peer electronic cash for the world&rsquo;s unbanked. If you believe in the same vision as us and want to donate we are hugely grateful.</p>
+              <p>Our vision is a Clone for every person on EARTH. If you believe in the same vision as us and want to donate we are hugely grateful.</p>
             </Col>
           </Row>
         </Grid>

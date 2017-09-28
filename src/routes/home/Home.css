@@ -3,9 +3,9 @@
 
 .jumbotron {
   padding: 7% 0 4% 0;
-  background: #4367B2;
+  background: var(--earth-blue);
   text-align: center;
-  color: white;
+  color: var(--white);
   margin-bottom: 0;
 
   h1 {
@@ -41,7 +41,7 @@
 
 .summary {
   padding: 0.5% 13%;
-  border-bottom: 1px solid #dddfe2;
+  border-bottom: 1px solid var(--grey-border);
 
   h3 {
     font-size: 1em;
@@ -69,7 +69,7 @@
   padding: 4% 6% 3% 6%;
   background: #e9ebee;
   border-style: solid;
-  border-color: #dddfe2;
+  border-color: var(--grey-border);
   border-width: 1px 0 0 0;
 
   .alignRight {
@@ -106,8 +106,8 @@
   padding: 3% 30%;
 
   button {
-    color: white;
-    background: #4367B2;
+    color: var(--white);
+    background: var(--earth-blue);
     font-size: 2em;
     width: 50px;
   }

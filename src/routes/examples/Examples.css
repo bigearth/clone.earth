@@ -5,13 +5,13 @@
   text-align: center;
 
   h2 {
-    color: white;
+    color: var(--white);
     font-size: 2.25em;
   }
 }
 
 .title{
-  background: #4367B2;
+  background: var(--earth-blue);
   padding-top: 6%;
 
   @media only screen
@@ -31,6 +31,6 @@
 .detailsqr {
   padding-top: 2%;
   font-size: 1.25em;
-  background: white;
+  background: var(--white);
   text-align: center;
 }

@@ -1,14 +1,15 @@
+@import '../variables.css';
 
 .root {
   margin-bottom: 0;
   border-radius: 0;
-  background: #4367B2;
-  color: white;
+  background: var(--earth-blue);
+  color: var(--white);
   border: none;
   padding: 0.5% 0;
 
   .white, .white:visited, .white li a, .white li a:visited {
-    color: white;
+    color: var(--white);
   }
 
   .white:hover, .white li a:hover {
